@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="dani.blumstein@gmail.com" />
+
+
+<title>Danielle Blumstein</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Danielle Blumstein</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="CV_dani.html">CV</a>
+</li>
+<li>
+  <a href="sampling_map.html">Where I've worked</a>
+</li>
+<li>
+  <a href="videos.html">Videos and Pictures</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Danielle Blumstein</h1>
+<h4 class="author"><a href="mailto:dani.blumstein@gmail.com" class="email">dani.blumstein@gmail.com</a></h4>
+<h4 class="date">6/30/2019</h4>
+
+</div>
+
+
+<style type="text/css">
+
+h1.title {
+  font-size: 45px;
+  color: Black;
+  text-align: center;
+}
+h4.author { /* Header 4 - and the author and data headers use this too  */
+    font-size: 18px;
+  font-family: "Lucida Console", monospace;
+  color: Black;
+  text-align: center;
+}
+h4.date { /* Header 4 - and the author and data headers use this too  */
+  font-size: 18px;
+  font-family: "Lucida Console", monospace;
+  color: Black;
+  text-align: center;
+</style>
+</script>
+<div class="row">
+<div class="col-xs-12 col-sm-9 text-left">
+<p><br/></p>
+<hr />
+<h2 id="education"><strong>EDUCATION</strong></h2>
+<h3 id="univeristy-of-new-hampshire-durham-nh"><strong>Univeristy of New Hampshire</strong>, Durham, NH</h3>
+<ul>
+<li>2019 - <strong>Ph.D Molecular and Evolutionary Systems Biology </strong>; </br> Genotypic and phonotypic consequences of desert ecology. </br> Advisor: Matt MacManes</br></li>
+</ul>
+<h3 id="univeristy-of-wisconsin---stevens-point-stevens-point-wi"><strong>Univeristy of Wisconsin - Stevens Point</strong>, Stevens Point, WI</h3>
+<ul>
+<li>2019 - <strong>M.Sc. in Natural Resources </strong>; </br> M.Sc. Thesis, The first haploid linkage map in a coregonid <em>(Coregonus artedi)</em> improves knowledge of chromosomal evolution and rediploidization across Salmonids. </br> Advisor: Wes Larson</br></li>
+</ul>
+<h3 id="michigan-state-univeristy-east-lansing-mi"><strong>Michigan State Univeristy</strong>, East Lansing, MI </br></h3>
+<ul>
+<li>2017 - <strong>BS in Zoology</strong></br></li>
+</ul>
+<hr />
+<h2 id="publications"><strong>PUBLICATIONS</strong></br></h2>
+<p><strong>Blumstein, DM</strong>, The first haploid linkage map in a coregonid <em>(Coregonus artedi)</em> improves knowledge of chromosomal evolution and rediploidization across Salmonids. <em>Master’s thesis. University of Wisconsin-Stevens Point</em></p>
+<p><strong>Blumstein, DM</strong>, Mays D, Scribner KT. (2017). Spatial genetic structure and recruitment dynamics of burbot (Lota lota) in Eastern Lake Michigan and Michigan tributaries. <em>Journal of Great Lakes Research</em>, 44(1):149-156.</p>
+<p>Waraniak JM, <strong>Blumstein DM</strong>, Scribner KT. (2017). Barcoding PCR primers detect larval lake sturgeon (Acipenser fulvescens) in diets of piscine predators. <em>Conservation Genetics Resources</em>, 10(2):259-268.</p>
+<hr />
+<h2 id="reaearch-presentations"><strong>REAEARCH PRESENTATIONS</strong></br></h2>
+<p>(Presenter bolded)</br></p>
+<p><strong>Blumstein DM</strong>, Matthew A. Campbell, Matthew C. Hale, Ben J. G. Sutherland, Garrett J. McKinney, Wendylee Stott, Wesley A. Larson. (2019). The first haploid linkage map in a coregonid <em>(Coregonus artedi)</em> improves knowledge of chromosomal evolution and rediploidization across Salmonids. International Association for Great Lakes Research 62nd Annual Conference on Great Lakes Research. The College at Brockport, State University of New York <em>[oral presentation]</em></p>
+<p><strong>Blumstein DM</strong>. (2019). The first haploid linkage map in a coregonid <em>(Coregonus artedi)</em> improves knowledge of chromosomal evolution and rediploidization across Salmonids. Master’s thesis. University of Wisconsin-Stevens Point. <em>[oral presentation]</em></p>
+<p><strong>Blumstein DM</strong>, Stott W, Larson WA (2019) Development of a genetic linkage map for cisco <em>(Coregonus artedi)</em> to facilitate integrated studies of adaptive diversity (poster). 47th Annual Meeting of the Wisconsin Chapter of the American Fisheries Society. Green Bay, Wisconsin. <em>[poster]</em></p>
+<p><strong>Blumstein DM, Stott W</strong>, Larson WA (2018) Development of a genetic linkage map for cisco <em>(Coregonus artedi)</em> to facilitate integrated studies of adaptive diversity. Midwest Fish and Wildlife Conference. Milwaukee, Wisconsin. <em>[poster]</em></p>
+<p><strong>Blumstein DB</strong>, Waraniak JM, Scribner KT (2016) Barcoding PCR primers detect larval lake sturgeon (Acipenser fulvescens) in diets of piscine predators. University Undergraduate Research and Arts Forum, Michigan State University. <em>[poster]</em></p>
+<p><strong>Blumstein DB</strong>, Scribner KT (2015) Genetic assessment of the male reproductive success of lake sturgeon (Acipenser fulvescens) as a function of duration of river occupancy during the spawning season. University Undergraduate Research and Arts Forum, Michigan State University. <em>[poster]</em></p>
+<hr />
+<h2 id="invited-talks"><strong>INVITED TALKS</strong></br></h2>
+<p>(Presenter bolded)</br></p>
+<p><strong>Blumstein DM</strong>, Stott W, Larson WA (2018) Development of a genetic linkage map for cisco <em>(Coregonus artedi)</em> to facilitate integrated studies of adaptive diversity. University of Wisconsin – Stevens Point Student-Sub Unit of American Fisheries Society.</p>
+<p><strong>Blumstein DM</strong>, Stott W, Larson WA (2018) Development of a genetic linkage map for cisco <em>(Coregonus artedi)</em> to facilitate integrated studies of adaptive diversity. USGS Great Lakes Science Center, Ann Arbor, Michigan. Invited Seminar.</p>
+<p><strong>Blumstein DM</strong>, Mays D, Scribner KT (2017) Spatial genetic structure and recruitment dynamics of burbot <em>(Lota lota)</em> in Eastern Lake Michigan and Michigan tributaries. USGS Great Lakes Science Center, Ann Arbor, Michigan.</p>
+<hr />
+<h2 id="research-and-profesional-experience"><strong>RESEARCH and PROFESIONAL EXPERIENCE</strong></br></h2>
+<h3 id="workshops"><strong>Workshops:</strong></br></h3>
+<p><em>2018</em> NFS -funded expert workshop for the development of a global experiment to understand Coregonid adaptive response to changing thermal regimes. Thonon – les – Bains, France.</p>
+<p><em>2017</em> RAD Sequencing Workshop. Molecular Conservation Genetics Laboratory, University of Wisconsin – Stevens Point.</p>
+<p><em>2016</em> Microsatellite Genotyping Workshop. Molecular Ecology Laboratory, Michigan State University.</p>
+<p><em>2015</em> Ecology and Plant Systematics Field Courses. Kellogg Biological Station, Michigan. 2014. MDNR Fish Sampling Techniques Course. Gaylord, Michigan.</p>
+<h3 id="outreach"><strong>Outreach:</strong></br></h3>
+<p><em>2019</em>. Judge Jim and Katie Krause College of Natural Resources Student Research Symposium, University of Wisconsin – Stevens Point.</p>
+<p><em>2019</em> Presenter, STEAM Point Day for Girls (16 middle school students per class). Two class periods: Evolution Board Game. University of Wisconsin – Stevens Point</p>
+<p><em>2018</em> Guest lecture, Principles of Genetics (Biology 210), University of Wisconsin – Stevens Point</p>
+<p><em>2018</em> Judge Jim and Katie Krause College of Natural Resources Student Research Symposium, University of Wisconsin – Stevens Point.</p>
+<p><em>2018</em> Presenter, STEAM Point Day for Boys (16 middle school students per class). Two class periods: Evolution Board Game. University of Wisconsin – Stevens Point</p>
+<p><em>2018</em> Presenter, STEM Exploration Day at Treehaven (16 middle school students per class). Three class periods: Evolution Board Game. University of Wisconsin – Stevens Point</p>
+<h3 id="manuscripts-reviewed-for"><strong>Manuscripts reviewed for:</strong></br></h3>
+<p>Transactions of the American Fisheries Society (1)</p>
+<h2 id="skills"><strong>SKILLS</strong></br></h2>
+<h3 id="laboratory"><strong>Laboratory:</strong></br></h3>
+<ul>
+<li>96 well Qiagen/Promega DNA extraction (tissue)</li>
+<li>Qiagen single tube DNA extraction (tissue, diet samples, eDNA, insects)</li>
+<li>Agarose and polyacrylamide gel electrophoresis</li>
+<li>qPCR</li>
+<li>PCR optimization &amp; clean up</li>
+<li>Microsatellite genotyping</li>
+<li>DNA quantification (nanodrop and PicoGreen)</li>
+<li>Plate prep for ABI 3730</li>
+<li>RAD library preparation and data management</li>
+</ul>
+<h3 id="computer"><strong>Computer:</strong></br></h3>
+<ul>
+<li>Graphing: R, GGPlot, and Excel</li>
+<li>Statistical analysis: R, SAS, Rqtl</li>
+<li>Software: STACKS, ArcMapm, GeneMarker, LepMap, BLAST, Colony Parentage Analysis Program</li>
+<li>Coding languages: Java, Python, R</li>
+<li>App and Web development: RMarkdown, GitPages</li>
+</ul>
+<h3 id="field-work"><strong>Field Work:</strong></br></h3>
+<ul>
+<li>Fisheries: Morphometric measurements, barge and backpack electrofishing, kick net, seine net, drift net, fish care and fish feeding, fish disease (prevention, identification, treatment), tissue sample collection for genetic analyses</li>
+<li>Taxanomic: Basic fish, aquatic and terrestral invertebrate identification, vascular plants</li>
+<li>Other: Extensive backcountry camping experience, snorkeling, graphic design, knot tying, driving 4WD vehicles (including manual transmission)</li>
+</ul>
+<hr />
+<h2 id="additional-resources"><strong>ADDITIONAL RESOURCES:</strong></h2>
+<ul>
+<li><p><a href="https://twitter.com/DaniBlumstein">Twitter</a></p></li>
+<li><p><a href="https://www.researchgate.net/profile/Danielle_Blumstein">Researchgate</a></p></li>
+<li><p><a href="https://github.com/DaniBlumstein">GitHub</a></p></li>
+<li><p><a href="pdf/DanielleBlumsteinCV_6_3_19.pdf">Download CV</a></p></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-3">
+<p><br/> <img src="pictures/female_map.jpg" style="float:left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="pictures/male_map.jpg" style="float:left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="pictures/circle_plot_color_v4.jpg" style="float:left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="pictures/DXi1nTyX0AEy0Z6.jpg" style="float:left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
