@@ -3,7 +3,7 @@ title:
 output: html_document
 ---
 
-### __Wisconsin Stugeon Drift__<br/>
+### __Wisconsin Sturgeon Drift__<br/>
 Time laps video of a june bug eating a mayfly </br>
 __Shawano, WI__<br/>
 June 5, 2019   

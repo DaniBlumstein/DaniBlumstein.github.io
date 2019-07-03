@@ -18,7 +18,7 @@ library(dataRetrieval)
 # GetURL <- function(service, host = "basemap.nationalmap.gov") {
 #   sprintf("https://%s/arcgis/services/%s/MapServer/WmsServer", host, service)
 # }
-sites <- read.csv("~/Documents/website_files/sampling_sites.csv")
+sites <- read.csv("~/DaniBlumstein.github.io/sampling_sites.csv")
 # create specific icon for every type of point
 icon.cisco <- makeAwesomeIcon(icon= 'ship', markerColor = 'blue', iconColor = 'black')
 icon.Ruellia <- makeAwesomeIcon(icon = 'ship', markerColor = 'red', iconColor = 'black')
