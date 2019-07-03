@@ -40,7 +40,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 </br>
     Advisor: Matt MacManes</br>
 
-### __Univeristy of Wisconsin - Stevens Point__, Stevens Point, WI    
+### __University of Wisconsin - Stevens Point__, Stevens Point, WI    
 - 2019 - __M.Sc. in Natural Resources __; </br>
     M.Sc. Thesis, The first haploid linkage map in a coregonid _(Coregonus artedi)_ improves knowledge of chromosomal evolution and rediploidization across Salmonids.
 </br>
