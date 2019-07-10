@@ -64,8 +64,8 @@ body {
 
 <!-- Header -->
 <div class="header" id="myHeader">
-  <h1>Wisconsin Sturgeon Drift</h1>
-  <p>Shawano, WI June 5, 2019.</p>
+  <h1>Wisconsin Sturgeon Drift. Shawano, WI June 5, 2019</h1>
+  <p>Click on the numbers to change the picture view.</p>
   <button class="btn" onclick="one()">1</button>
   <button class="btn active" onclick="two()">2</button>
   <button class="btn" onclick="four()">4</button>
