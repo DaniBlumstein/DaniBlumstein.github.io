@@ -312,15 +312,139 @@ $(document).ready(function () {
 </div>
 
 
-<div id="wisconsin-sturgeon-drift" class="section level3">
-<h3><strong>Wisconsin Sturgeon Drift</strong><br/></h3>
-<strong>Shawano, WI</strong><br/> June 5, 2019<br />
-<br/>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+<!-- Header -->
+<div id="myHeader" class="header">
+<h1>
+Wisconsin Sturgeon Drift
+</h1>
+<p>
+Shawano, WI June 5, 2019.
+</p>
+<p><button class="btn" onclick="one()">1</button> <button class="btn active" onclick="two()">2</button> <button class="btn" onclick="four()">4</button></p>
+</div>
+<!-- Photo Grid -->
+<div class="row">
+<div class="column">
+IMG_20190530_224222.jpg <img src="pictures/IMG_20190530_200232.jpg" style="width:100%"> <img src="pictures/IMG_20190530_224222.jpg" style="width:100%">
+</div>
+<div class="column">
+<pre><code>&lt;img src=&quot;pictures/IMG_20190530_231012.jpg&quot; style=&quot;width:100%&quot;&gt;
+&lt;img src=&quot;pictures/IMG_20190530_231020.jpg&quot; style=&quot;width:100%&quot;&gt;</code></pre>
+</div>
+<div class="column">
+<pre><code>&lt;img src=&quot;pictures/IMG_20190530_231204.jpg&quot; style=&quot;width:100%&quot;&gt;
+&lt;img src=&quot;pictures/IMG_20190531_004320.jpg&quot; style=&quot;width:100%&quot;&gt;</code></pre>
+</div>
+<div class="column">
+<pre><code>&lt;img src=&quot;pictures/IMG_20190605_215929.jpg&quot; style=&quot;width:100%&quot;&gt;
+&lt;img src=&quot;pictures/IMG_20190605_213610.jpg&quot; style=&quot;width:100%&quot;&gt;</code></pre>
+</div>
+</div>
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 <center>
 <video width=100% height="500" controls>
 <source src="pictures/62496104_874684099539510_5830227868588304594_n.mp4" type="video/mp4">
 </video>
-</div>
 <div id="masters-defense" class="section level3">
 <h3><strong>Masters Defense</strong><br/></h3>
 <p>The first haploid linkage map in a coregonid (Coregonus artedi) improves knowledge of chromosomal evolution and rediploidization across Salmonids </br> <strong>Univeristy of Wisconsin - Stevens Point, Stevens Point, WI</strong><br/> May 10, 2019<br />
