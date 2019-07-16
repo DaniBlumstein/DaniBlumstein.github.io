@@ -27,10 +27,10 @@ icon.Cuphea <- makeAwesomeIcon(icon = 'ship', markerColor = 'orange', iconColor 
 icon.Phytolacca <- makeAwesomeIcon(icon = 'ship', markerColor = 'cadetblue', iconColor = 'black')
 icon.sturgeon <- makeAwesomeIcon(icon = 'ship', markerColor = 'yellow', iconColor = 'black')
 icon.Powelliphanta <- makeAwesomeIcon(icon = 'ship', markerColor = 'purple', iconColor = 'black')
-icon.deepSculpin <- makeAwesomeIcon(icon = 'ship', markerColor = 'gold', iconColor = 'black')
-icon.spoonhead <- makeAwesomeIcon(icon = 'ship', markerColor = 'teal', iconColor = 'black')
-icon.kiyi <- makeAwesomeIcon(icon = 'ship', markerColor = 'black', iconColor = 'black')
-icon.siscowet <- makeAwesomeIcon(icon = 'ship', markerColor = 'pink', iconColor = 'black')
+icon.deepSculpin <- makeAwesomeIcon(icon = 'ship', markerColor = 'grey', iconColor = 'black')
+icon.spoonhead <- makeAwesomeIcon(icon = 'ship', markerColor = '#482677FF', iconColor = 'black')
+icon.kiyi <- makeAwesomeIcon(icon = 'ship', markerColor = '#287D8EFF', iconColor = 'black')
+icon.siscowet <- makeAwesomeIcon(icon = 'ship', markerColor = '#20A387FF', iconColor = 'black')
 
 leaflet() %>% 
   addTiles() %>%
