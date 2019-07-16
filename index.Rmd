@@ -64,4 +64,5 @@ Contact me: dani.blumstein@gmail.com or dmb1086@wildcats.unh.edu
 <div class="row">
 <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/DaniBlumstein">Tweets by Dani_Blumstein</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
+<br/>
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-43005z7458D8AYZ2-57.gif' border='0' alt='web counter free'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=43005z7458D8AYZ2'></script></div>
