@@ -12,6 +12,8 @@ navbar:
       href: sampling_map.html
     - text: "Videos and Pictures"
       href: videos.html
+    - text: "Interactive Linkage Map"
+      href: interactive_LM.html
 output:
   html_document:
     theme: flatly
