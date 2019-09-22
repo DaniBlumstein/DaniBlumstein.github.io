@@ -6,7 +6,7 @@ output:
        in_header: googleAnalytics.Rhtml
 ---
 
-<img src="pictures/61260973_10218501553627260_7245184136963424256_o.jpg" style="float: left; width: 100%; margin-bottom: 2em;">
+<img src="pictures/banner.jpg" style="float: left; width: 100%; margin-bottom: 2em;">
 
 
 </script>
@@ -43,11 +43,9 @@ I started getting involved in research as an undergrad at Michigan State Univers
 ***
 
 <center>
-<img src="pictures/DVpCce7VMAExO3F.jpg" style="float: left; width: 25%; margin-right: 5%; margin-bottom: 0.5em;">
-<img src="pictures/DY2Z0L_WkAAb6p0.jpg" style="float: left; width: 25%; margin-right: 1%; margin-bottom: 0.5em;">
-<video width=35% height="180" controls>
-  <source src="pictures/66068784_104945927385854_2163393502730949168_n.mp4" type="video/mp4">
-</video>
+<img src="pictures/DVpCce7VMAExO3F.jpg" style="float: left; width: 25%; margin-right: 3%; margin-bottom: 0.5em;">
+<img src="pictures/DY2Z0L_WkAAb6p0.jpg" style="float: left; width: 25%; margin-right: 3%; margin-bottom: 0.5em;">
+<img src="pictures/desert1/00100lPORTRAIT_00100_BURST20190919095341825_COVER.jpg" style="float: left; width: 25%; margin-right: 3%; margin-bottom: 0.5em;">
 <center>
 </script>
 <br/>
