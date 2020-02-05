@@ -14,7 +14,7 @@ PD1,45.41075,-84.335233,lake sturgeon,undergrad
 PD3,45.415317,-84.337783,lake sturgeon,undergrad
 PD4,45.41755,-84.33715,lake sturgeon,undergrad
 PD5,45.4208,-84.334833,lake sturgeon,undergrad
-jasmine site,44.773521,-88.620267,lake sturgeon,masters
+WI,44.773521,-88.620267,lake sturgeon,masters
 ,-41.0982,174.1864,Powelliphanta,undergrad
 2,-41.0983,174.1867,Powelliphanta,undergrad
 2,-41.0983,174.1866,Powelliphanta,undergrad
@@ -31,7 +31,7 @@ jasmine site,44.773521,-88.620267,lake sturgeon,masters
 1,-41.098576,174.186564,Powelliphanta,undergrad
 1,-41.098615,174.18651,Powelliphanta,undergrad
 1,-41.098616,174.186499,Powelliphanta,undergrad
-,-41.0984,174.18664,Powelliphanta,undergrad
+1,-41.0984,174.18664,Powelliphanta,undergrad
 1,-41.0986,174.1867,Powelliphanta,undergrad
 2,-41.0982,174.1866,Powelliphanta,undergrad
 1,-41.0985,174.1867,Powelliphanta,undergrad
@@ -59,3 +59,33 @@ kiyi boat,47.2195,-89.556,siscowet,masters
 kiyi boat,47.154,-89.3,deep water scuplin,masters
 kiyi boat,47.154,-89.3,kiyi,masters
 kiyi boat,47.154,-89.3,siscowet,masters
+CA,33.670027,-116.358858,Peromyscus crinitus,PhD
+CA,33.670197,-116.360785,Peromyscus crinitus,PhD
+CA,33.67025,-116.359275,Peromyscus crinitus,PhD
+CA,33.67031,-116.359332,Peromyscus crinitus,PhD
+CA,33.67035,-116.359392,Peromyscus crinitus,PhD
+CA,33.670373,-116.359457,Peromyscus crinitus,PhD
+CA,33.670402,-116.359547,Peromyscus crinitus,PhD
+CA,33.670438,-116.359597,Peromyscus crinitus,PhD
+CA,33.670655,-116.359942,Peromyscus crinitus,PhD
+CA,33.670627,-116.360028,Peromyscus crinitus,PhD
+CA,33.670552,-116.360367,Peromyscus crinitus,PhD
+CA,33.670638,-116.360753,Peromyscus crinitus,PhD
+CA,33.670158,-116.358858,Peromyscus crinitus,PhD
+CA,33.670297,-116.359243,Peromyscus crinitus,PhD
+CA,33.670422,-116.359237,Peromyscus crinitus,PhD
+CA,33.670467,-116.359365,Peromyscus eremicus,PhD
+CA,33.670493,-116.359493,Peromyscus crinitus,PhD
+CA,33.670498,-116.359493,Peromyscus eremicus,PhD
+CA,33.670667,-116.36021,Peromyscus crinitus,PhD
+CA,33.670647,-116.361045,Peromyscus eremicus,PhD
+CA,33.541098,-116.449373,Peromyscus truei,PhD
+CA,33.541125,-116.449313,Peromyscus truei,PhD
+CA,33.102682,-116.474603,Peromyscus truei,PhD
+CA,33.104045,-116.495072,Peromyscus maniculatus,PhD
+CA,33.103937,-116.494682,Peromyscus maniculatus,PhD
+CA,33.103953,-116.494282,Peromyscus maniculatus,PhD
+CA,33.103933,-116.49417,Peromyscus maniculatus,PhD
+CA,33.103988,-116.494073,Peromyscus maniculatus,PhD
+CA,33.074448,-116.601828,Peromyscus eremicus,PhD
+CA,33.102622,-116.474612,Peromyscus eremicus,PhD
