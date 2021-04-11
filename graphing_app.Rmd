@@ -3,6 +3,6 @@ output: html_document
 ---
 
 
-<iframe src="http://104wj0-dani0blumstein.shinyapps.io/App-1" style="height: 100%;
+<iframe src="https://104wj0-dani0blumstein.shinyapps.io/App-1/" style="height: 100%;
   width: 100%; position: absolute; left: 0
 "></iframe>
