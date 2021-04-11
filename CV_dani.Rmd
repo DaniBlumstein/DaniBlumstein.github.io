@@ -36,7 +36,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ### __Univeristy of New Hampshire__, Durham, NH
 - Present - __Ph.D Molecular and Evolutionary Systems Biology __; </br>
-    Genotypic and phonotypic consequences of desert ecology.
+    Genotypic and phonotypic consequences of desert physiology
 </br>
     Advisor: Matt MacManes</br>
 
@@ -51,6 +51,10 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ***
 ## __PUBLICATIONS__</br>
+__Blumstein DM__, Colella, JP, and MacManes, MD. (In Prep). Evaporative water loss driven by low fat diet in desert-adapted mice.
+
+Colella, JP, __Blumstein DM__, and MacManes, MD. (2020). Disentangling environmental drivers of circadian metabolism in desert-adapted mice. bioRxiv.
+
 __Blumstein, DM__, Campbell, M. A., Hale, M. C., Sutherland, B. J., McKinney, G. J., Stott, W., & Larson, W. A. (2019). Comparative genomic analyses and a novel linkage map for cisco _(Coregonus artedi)_ provides insight into chromosomal evolution and rediploidization across salmonids. _bioRxiv, 834937_.
 
 __Blumstein, DM__, The first haploid linkage map in a coregonid _(Coregonus artedi)_ improves knowledge of chromosomal evolution and rediploidization across Salmonids. _Master's thesis. University of Wisconsin-Stevens Point_ 
@@ -62,6 +66,11 @@ Waraniak JM, __Blumstein DM__, Scribner KT. (2017). Barcoding PCR primers detect
 ***
 ## __RESEARCH PRESENTATIONS__</br>
 (Presenter bolded)</br>
+__Blumstein, DM__ (2021). How to survive an extreme environment: a lesson from the cactus mouse. Three Minute Thesis, University of New Hampshire. _[oral presentation]_
+
+__Blumstein, DM__ (2021). Evaporative water loss driven by low fat diet in desert-adapted mice. Molecular, Cellular, Biomedical Sciences, University of New Hampshire. _[oral presentation]_
+
+__Blumstein, DM__ (2020). Peromics. Molecular, Cellular, Biomedical Sciences, University of New Hampshire _[oral presentation]_
 
 __Blumstein DM__, Campbell MA, Hale MC, Sutherland BJG, McKinney GJ, Stott W, Larson WA. (2019). The first haploid linkage map in a coregonid _(Coregonus artedi)_ improves knowledge of chromosomal evolution and rediploidization across Salmonids. International Association for Great Lakes Research 62nd Annual Conference on Great Lakes Research. The College at Brockport, State University of New York _[oral presentation]_
 
@@ -158,7 +167,7 @@ _2018_ Presenter, STEM Exploration Day at Treehaven (16 middle school students p
 
 - [GitHub](https://github.com/DaniBlumstein)
 
-- [Download CV](pdf/DanielleBlumsteinCV_1_26_20.pdf)
+- [Download CV](pdf/DanielleBlumsteinCV_10_5_21.pdf)
 
 
 </div>

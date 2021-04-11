@@ -66,6 +66,17 @@ body {
 
 <!-- Header -->
 <div class="header" id="myHeader">
+  <h1>2021 3MT</h1>
+  <p>April 14, 2020</p>
+</div>
+
+<center>
+<video width=100% height="500" controls>
+  <source src="3MT_2021_-_Dani_Blumstein_-_March_30_(Source).mp4" type="video/mp4">
+</video>
+
+<!-- Header -->
+<div class="header" id="myHeader">
   <h1>Spring MCBS Seminar</h1>
   <p>April 14, 2020</p>
 </div>
