@@ -13,7 +13,7 @@ navbar:
     - text: "Videos and Pictures"
       href: videos.html
     - text: "Experiments"
-      href: "shiny_app.html"
+      href: "graphing_app.html"
     - text: "Interactive Linkage Map"
       href: interactive_LM.html
 output:
