@@ -67,7 +67,7 @@ body {
 <!-- Header -->
 <div class="header" id="myHeader">
   <h1>2021 3MT</h1>
-  <p>April 14, 2020</p>
+  <p>March 30, 2021</p>
 </div>
 
 <center>
@@ -78,7 +78,7 @@ body {
 <!-- Header -->
 <div class="header" id="myHeader">
   <h1>Spring MCBS Seminar</h1>
-  <p>March 30, 2021</p>
+  <p>April 14, 2020</p>
 </div>
 
 <iframe width=100% height="500" controls src="https://www.youtube.com/embed/opsahhC6wxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -147,7 +147,6 @@ _2018_ Presenter, STEM Exploration Day at Treehaven (16 middle school students p
 - RAD library preparation and data management
 - Trizol RNA extraction
 - NEB RNAseq library preperation
-- 
 
 ### __Computer:__</br>
 - Graphing: R, GGPlot, and Excel
