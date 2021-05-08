@@ -105,6 +105,9 @@ ui <- fluidPage(
       tags$a(href="https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198830399.001.0001/oso-9780198830399", "Link to Measuring Metabolic Rates: A Manual for Scientists
 by John R. B. Lighton", target="_blank"),
       br(),
+      h5("Shiny app DOI"),
+      tags$a(href="https://zenodo.org/badge/latestdoi/194934393", img(src="https://zenodo.org/badge/194934393.svg"), alt="DOI", target="_blank"),
+      br(),
       br(),
       img(src = "MacManesLab_v8.png", height = 100, width = 100),
       img(src = "nigms-logo.jpeg", height = 150, width = 150),

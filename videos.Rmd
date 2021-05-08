@@ -81,6 +81,8 @@ body {
   <div class="column1">
 <video width=100% controls><source src="3MT_2021_-_Dani_Blumstein_-_March_30_(Source).mp4" type="video/mp4"></video>
 <img src="pictures/top_down_thesis.jpg" style="width:100%">
+<img src="pdf/WIAFS2018poster-page-001.jpg" style="width:100%">
+
   </div>
 </div>
 <br/>

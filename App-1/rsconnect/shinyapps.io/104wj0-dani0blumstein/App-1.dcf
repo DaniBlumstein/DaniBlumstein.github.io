@@ -5,9 +5,9 @@ account: 104wj0-dani0blumstein
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3950343
-bundleId: 4526097
+bundleId: 4526239
 url: https://104wj0-dani0blumstein.shinyapps.io/App-1/
-when: 1619542981.56178
-lastSyncTime: 1619542981.56179
+when: 1619545363.79683
+lastSyncTime: 1619545363.79685
 asMultiple: FALSE
 asStatic: FALSE
