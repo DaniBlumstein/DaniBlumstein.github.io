@@ -9,7 +9,7 @@ library(dplyr)
 library(lubridate)
 library(tidyverse)
 
-df <- read.csv("MyData.csv")
+df <- read.csv("diet_analysis_data.csv")
 
 sex_list <- unique(df$Sex)
 experiment_list <- unique(df$experiment)

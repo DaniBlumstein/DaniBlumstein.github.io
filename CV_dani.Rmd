@@ -66,6 +66,8 @@ Waraniak JM, __Blumstein DM__, Scribner KT. (2017). Barcoding PCR primers detect
 ***
 ## __RESEARCH PRESENTATIONS__</br>
 (Presenter bolded)</br>
+__Blumstein, DM__, Jocelyn Colella, Matthew MacManes (2021). Food for thought: Evaporative water loss driven by low-fat diet in desert-adapted mice. Annual Meeting of the American Society of Mammalogists, Virtual Conference Platform. _[poster]_
+
 __Blumstein, DM__ (2021). How to survive an extreme environment: a lesson from the cactus mouse. Three Minute Thesis, University of New Hampshire. _[oral presentation]_
 
 __Blumstein, DM__ (2021). Evaporative water loss driven by low fat diet in desert-adapted mice. Molecular, Cellular, Biomedical Sciences, University of New Hampshire. _[oral presentation]_
@@ -102,7 +104,6 @@ __Blumstein DM__, Mays D, Scribner KT (2017) Spatial genetic structure and recru
 ## __RESEARCH and PROFESIONAL EXPERIENCE__</br>
 
 ### __Workshops:__</br>
-
 _2018_ NFS -funded expert workshop for the development of a global experiment to understand Coregonid adaptive response to changing thermal regimes. Thonon – les – Bains, France. 
 
 _2017_ RAD Sequencing Workshop. Molecular Conservation Genetics Laboratory, University of Wisconsin – Stevens Point. 

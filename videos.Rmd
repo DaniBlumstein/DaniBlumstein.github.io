@@ -77,11 +77,13 @@ body {
 <div class="row1"> 
   <div class="column1">
 <img src="pictures/166354269_289567655877249_9021535509574002196_n.png" style="width:100%">
+<img src="pictures/ASM_2021-page-001.jpg" style="width:100%">
   </div>
   <div class="column1">
 <video width=100% controls><source src="3MT_2021_-_Dani_Blumstein_-_March_30_(Source).mp4" type="video/mp4"></video>
 <img src="pictures/top_down_thesis.jpg" style="width:100%">
 <img src="pdf/WIAFS2018poster-page-001.jpg" style="width:100%">
+
 
   </div>
 </div>
@@ -160,11 +162,12 @@ body {
   <div class="column1">
 <img src="pictures/kiyi/IMG_20190709_121851.jpg" style="width:100%">
 <img src="pictures/kiyi/IMG_20190709_173146.jpg" style="width:100%">
-<img src="pictures/kiyi/IMG_r3ytjp.jpg" style="width:100%">
+<img src="pictures/kiyi/20190709_173416.jpg" style="width:100%">
   </div>
   <div class="column1">
 <img src="pictures/kiyi/IMG_20190709_212237.jpg" style="width:100%">
 <img src="pictures/kiyi/IMG_20190710_093317.jpg" style="width:100%">
+<img src="pictures/kiyi/20190709_195825.jpg" style="width:100%">
   </div>
 </div>
 <br/>

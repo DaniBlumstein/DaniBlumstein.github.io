@@ -1,0 +1,19 @@
+---
+title: "Linkage Map Tweet"
+author: "Dani Blumstein"
+date: "8/18/2019"
+output: html_document
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="twitter:card" content="player" />
+	<meta name="twitter:site" content="@DaniBlumstein" />
+	<meta name="twitter:title" content="Interactive Linkage Map Tweet" />
+	<meta name="twitter:description" content="Turing Linkage map into a tweet" />
+	<meta name="twitter:player" content="https://daniblumstein.github.io/interactive_LM.html" />
+	<meta name="twitter:player:width" content="517" />
+	<meta name="twitter:player:height" content="408" />
+</head>
+</html>
