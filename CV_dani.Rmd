@@ -1,7 +1,7 @@
 ---
 title: "Danielle Blumstein"
 author: "dani.blumstein@gmail.com"
-date: "4/11/2021"
+date: "12/13/2021"
 output: html_document
 ---
 
@@ -47,13 +47,15 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
     Advisor: Wes Larson</br>
     
 ### __Michigan State Univeristy__, East Lansing, MI </br>
--  2017 - __BS in Zoology__</br>
+- 2017 - __BS in Zoology__</br>
+  Concentration: Ecology, Evolution, and Organismal Biology </br>
+  Minor: Environmental Studies and Sustainability 
 
 ***
 ## __PUBLICATIONS__</br>
 __Blumstein DM__, Colella, JP, and MacManes, MD. (In Prep). Evaporative water loss driven by low fat diet in desert-adapted mice.
 
-Colella, JP, __Blumstein DM__, and MacManes, MD. (2020). Disentangling environmental drivers of circadian metabolism in desert-adapted mice. bioRxiv.
+Colella, JP, __DM Blumstein__, and MD MacManes. 2021. Disentangling environmental drivers of circadian metabolism in desert-adapted mice. Journal of Experimental Biology. 224 (18): jeb242529.
 
 __Blumstein, DM__, Campbell, M. A., Hale, M. C., Sutherland, B. J., McKinney, G. J., Stott, W., & Larson, W. A. (2019). Comparative genomic analyses and a novel linkage map for cisco _(Coregonus artedi)_ provides insight into chromosomal evolution and rediploidization across salmonids. _bioRxiv, 834937_.
 
@@ -66,6 +68,10 @@ Waraniak JM, __Blumstein DM__, Scribner KT. (2017). Barcoding PCR primers detect
 ***
 ## __RESEARCH PRESENTATIONS__</br>
 (Presenter bolded)</br>
+__Blumstein, DM__, Matthew MacManes (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona.
+
+__Blumstein, DM__, (2021). When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Molecular, Cellular, Biomedical Sciences, University of New Hampshire.
+
 __Blumstein, DM__, Jocelyn Colella, Matthew MacManes (2021). Food for thought: Evaporative water loss driven by low-fat diet in desert-adapted mice. Annual Meeting of the American Society of Mammalogists, Virtual Conference Platform. _[poster]_
 
 __Blumstein, DM__ (2021). How to survive an extreme environment: a lesson from the cactus mouse. Three Minute Thesis, University of New Hampshire. _[oral presentation]_
@@ -104,6 +110,8 @@ __Blumstein DM__, Mays D, Scribner KT (2017) Spatial genetic structure and recru
 ## __RESEARCH and PROFESIONAL EXPERIENCE__</br>
 
 ### __Workshops:__</br>
+_2021_ RNA-Seq Concepts, Design & Workflows. Common Fund Data Ecosystem, UC Davis.
+
 _2018_ NFS -funded expert workshop for the development of a global experiment to understand Coregonid adaptive response to changing thermal regimes. Thonon – les – Bains, France. 
 
 _2017_ RAD Sequencing Workshop. Molecular Conservation Genetics Laboratory, University of Wisconsin – Stevens Point. 
@@ -113,7 +121,7 @@ _2016_ Microsatellite Genotyping Workshop. Molecular Ecology Laboratory, Michiga
 _2015_ Ecology and Plant Systematics Field Courses. Kellogg Biological Station, Michigan. 2014. MDNR Fish Sampling Techniques Course. Gaylord, Michigan. 
 
 ### __Outreach:__</br>
-_2019_ Skype a Scientist (middle school). Three classes: Actual Living Scientist. 
+_2019_ Skype a Scientist (middle school). Three classes: Actual Living Scientist
 
 _2019_ Presenter, Science Sleuths (Preschool). Two class periods: What are fish? University of New Hampshire 
 
@@ -131,45 +139,56 @@ _2018_ Presenter, STEM Exploration Day at Treehaven (16 middle school students p
 
 
 ### __Manuscripts reviewed for:__</br>
-
- Transactions of the American Fisheries Society (1)
+- Molecular Ecology (2)
+- Transactions of the American Fisheries Society (1)
 
 *** 
 ## __SKILLS__</br>
 ### __Laboratory:__</br>
-- 96 well Qiagen/Promega DNA extraction (tissue) 
-- Qiagen single tube DNA extraction (tissue, diet samples, eDNA, insects)
-- Agarose and polyacrylamide gel electrophoresis
-- qPCR
-- PCR optimization & clean up
-- Microsatellite genotyping
-- DNA quantification (nanodrop and PicoGreen) 
-- Plate prep for ABI 3730
-- RAD library preparation and data management
-- Trizol RNA extraction
-- NEB RNAseq library preperation
+-	96 well Qiagen/Promega DNA extraction 
+-	Qiagen single tube DNA extraction (tissue, diet samples, eDNA, insects) 
+-	Trizol RNA extraction
+-	Agarose and polyacrylamide gel electrophoresis 
+-	PCR, qPCR optimization & clean up 
+-	Microsatellite genotyping 
+-	DNA quantification (nanodrop and PicoGreen)  
+-	Plate prep for ABI 3730 
+-	NEB RNAseq library preperation
+-	RAD (ddRAD, bestRAD) library preparation and data management 
+
 
 ### __Computer:__</br>
-- Graphing: R, GGPlot, and Excel
-- Statistical analysis: R, SAS, Rqtl
-- Software: STACKS, ArcMap, GeneMarker, LepMap, BLAST, Colony Parentage Analysis Program
-- Coding languages: Python, R, BASH, Java, HTML
+-	Programs: STACKS, Rqtl, ArcMap, LepMap, Sable Systems expedata, Colony Parentage Analysis Program 
+-	High performance computing with slurm scheduling  
+-	Microsoft Office (Word, Excel, Powerpoint) 
+-	Image J 
+-	Adobe Photoshop 
+-	Coding languages: Python, R statistical software, BASH, Java, HTML
 - App and Web development: RMarkdown, GitPages, Rshiny
 
-### __Mammal work:__</br>
-- Metabolic phenotyping with Sable Systems Field Metabolic System (FMS)
-- Mouse colony management
-- Small mammal trapping
-- Desert mouse identification
-- Mouse dissections and tissue extraction for RNA
+### __Mammal:__</br>
+-	Metabolic phenotyping with Sable Systems Field Metabolic System (FMS)
+-	Mouse colony management
+-	Small mammal trapping
+-	Desert mouse identification 
+-	Mouse dissections and tissue extraction for RNA
+-	Implantation of PIT tags 
 
-### __Fisheries Field Work:__</br>
+### __Fisheries:__</br>
 - Morphometric measurements
 - Barge and backpack electrofishing
 - Kick net, seine net, drift net, fyke net, trap net, and gill net sampling
 - Implantation of RFID, PIT, and floy tags
 - Tissue sample collection for genetic analyses
 - Fish care and fish feeding, fish disease prevention, identification, and treatment
+
+### __Other:__</br>
+-	Extensive backcountry camping experience 
+-	Snorkeling 
+-	Graphic design 
+-	Knot tying 
+-	Outdoor rock climbing
+-	Driving 4WD vehicles, including manual transmission 
 
 ***
 ## __ADDITIONAL RESOURCES:__
@@ -180,7 +199,7 @@ _2018_ Presenter, STEM Exploration Day at Treehaven (16 middle school students p
 
 - [GitHub](https://github.com/DaniBlumstein)
 
-- [Download CV](pdf/DanielleBlumsteinCV_10_5_20.pdf)
+- [Download CV](pdf/DanielleBlumsteinCV_11_15_21.pdf)
 
 
 </div>
