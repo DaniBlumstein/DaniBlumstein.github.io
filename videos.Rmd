@@ -66,6 +66,17 @@ body {
 
 <!-- Header -->
 <div class="header" id="myHeader">
+  <h1>SICB 2022</h1>
+  <p>January 7, 2022</p>
+</div>
+
+<center>
+<video width=100% height="500" controls>
+  <source src="pictures/SICB2022.mp4" type="video/mp4">
+</video>
+
+<!-- Header -->
+<div class="header" id="myHeader">
   <h1>Graphical Science Communication</h1>
   <p>Click on the buttons to change the grid view</p>
   <button class="btn" onclick="one()">1</button>
