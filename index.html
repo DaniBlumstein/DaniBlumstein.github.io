@@ -13,7 +13,8 @@
 
 <title>index.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -64,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -88,6 +90,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -240,7 +245,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -293,19 +298,40 @@ $(document).ready(function () {
 <br/>
 <div class="row">
 <div class="col-xs-12 col-sm-5 text-center">
-<p><br/> <img src="pictures/48424375_10217399884966232_8057977887090802688_n.jpg" style="width:400px;" align = "top"/></p>
+<p><br/>
+<img src="pictures/48424375_10217399884966232_8057977887090802688_n.jpg" style="width:400px;" align = "top"/></p>
 </div>
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
-<h1 id="danielle-blumstein-ph.d.-student"><strong>Danielle Blumstein, Ph.D. Student</strong><br/></h1>
-<p>I am a PhD student interested in genome evolution and adaptive diversity. My current research is focused on investigating the genomic basis of desert adaptations in desert mice <em>(Peromyscus)</em>.</p>
-<p><br/> <br/> - <a href="https://macmanes.weebly.com/">PhD lab</a> <br/> - <a href="https://larsonlab.wordpress.com/">Masters lab</a></p>
+<div id="danielle-blumstein-ph.d.-student" class="section level1">
+<h1><strong>Danielle Blumstein, Ph.D. Student</strong><br/></h1>
+<p>I am a PhD student interested in genome evolution and adaptive
+diversity. My current research is focused on investigating the genomic
+basis of desert adaptations in desert mice <em>(Peromyscus)</em>.</p>
+<p><br/> <br/> - <a href="https://macmanes.weebly.com/">PhD lab</a>
+<br/> - <a href="https://larsonlab.wordpress.com/">Masters lab</a></p>
 </div>
 </div>
-<p><br/> I started getting involved in research as an undergrad at Michigan State University where I worked in two research labs, one where I collected and analyzed genetic and ecological data for lake sturgeon <em>(Acipenser fulvescens)</em>, burbot <em>(Lota lota)</em>, and various aquatic invasive species and the other where I conducted field and greenhouse experiments to study the latitudinal biodiversty gradient. After completing my B.S. in zoology, I moved to the University of Wisconsin - Stevens Point and earned a M.Sc. in Natural Resources and developed a haploid linkage map for cisco <em>(Coregonus artedi)</em>. While the main use of the linkage map will be to examine the cisco species complex and inland and Great Lakes population variation, I used the map to study how the salmonid family has genomically evolved post whole genome duplication. <br/></p>
+</div>
+<p><br/> I started getting involved in research as an undergrad at
+Michigan State University where I worked in two research labs, one where
+I collected and analyzed genetic and ecological data for lake sturgeon
+<em>(Acipenser fulvescens)</em>, burbot <em>(Lota lota)</em>, and
+various aquatic invasive species and the other where I conducted field
+and greenhouse experiments to study the latitudinal biodiversty
+gradient. After completing my B.S. in zoology, I moved to the University
+of Wisconsin - Stevens Point and earned a M.Sc. in Natural Resources and
+developed a haploid linkage map for cisco <em>(Coregonus artedi)</em>.
+While the main use of the linkage map will be to examine the cisco
+species complex and inland and Great Lakes population variation, I used
+the map to study how the salmonid family has genomically evolved post
+whole genome duplication. <br/></p>
 <hr />
 <center>
-<p><img src="pictures/DVpCce7VMAExO3F.jpg" style="float: left; width: 30%; margin-right: 5%; margin-bottom: 0.5em;"> <video width=250 height=250 controls> <source src="video-1618166532.mp4" type="video/mp4"></video> <img src="pictures/desert1/00100lPORTRAIT_00100_BURST20190919095341825_COVER.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"></p>
+<p><img src="pictures/DVpCce7VMAExO3F.jpg" style="float: left; width: 30%; margin-right: 5%; margin-bottom: 0.5em;">
+<video width=250 height=250 controls>
+<source src="video-1618166532.mp4" type="video/mp4"></video>
+<img src="pictures/desert1/00100lPORTRAIT_00100_BURST20190919095341825_COVER.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"></p>
 <center>
 </script>
 <br/>
@@ -314,12 +340,17 @@ $(document).ready(function () {
 
 
 <hr />
-<p><left> Contact me: <a href="mailto:dani.blumstein@gmail.com" class="email">dani.blumstein@gmail.com</a> or <a href="mailto:dmb1086@wildcats.unh.edu" class="email">dmb1086@wildcats.unh.edu</a></p>
+<p><left> Contact me: <a href="mailto:dani.blumstein@gmail.com"
+class="email">dani.blumstein@gmail.com</a> or <a
+href="mailto:dmb1086@wildcats.unh.edu"
+class="email">dmb1086@wildcats.unh.edu</a></p>
 <div class="row">
-<a href="https://twitter.com/DaniBlumstein" class="twitter-follow-button" data-show-count="false">Follow: <span class="citation">@DaniBlumstein</span></a>
+<a href="https://twitter.com/DaniBlumstein" class="twitter-follow-button" data-show-count="false">Follow:
+<span class="citation">@DaniBlumstein</span></a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <div class="row">
-<a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/DaniBlumstein">Tweets by Dani_Blumstein</a>
+<a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/DaniBlumstein">Tweets
+by Dani_Blumstein</a>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

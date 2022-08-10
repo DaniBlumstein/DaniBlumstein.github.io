@@ -3,6 +3,5 @@ title:
 output: html_document
 ---
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1GbYUkK_aoCEYWA00AS2BRYrvG9k8TskG" style="height: 100%;
-  width: 100%; position: absolute; left: 0
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GbYUkK_aoCEYWA00AS2BRYrvG9k8TskG&ehbc=2E312F" style="height: 100%; width: 100%; position: absolute; left: 0
 "></iframe>

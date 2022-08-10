@@ -1,7 +1,7 @@
 ---
 title: "Danielle Blumstein"
 author: "dani.blumstein@gmail.com"
-date: "12/13/2021"
+date: "5/10/22"
 output: html_document
 ---
 
@@ -34,7 +34,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ## __EDUCATION__
 
-### __Univeristy of New Hampshire__, Durham, NH
+### __University of New Hampshire__, Durham, NH
 - Present - __Ph.D Molecular and Evolutionary Systems Biology __; </br>
     Genotypic and phonotypic consequences of desert physiology
 </br>
@@ -46,13 +46,15 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 </br>
     Advisor: Wes Larson</br>
     
-### __Michigan State Univeristy__, East Lansing, MI </br>
+### __Michigan State University__, East Lansing, MI </br>
 - 2017 - __BS in Zoology__</br>
   Concentration: Ecology, Evolution, and Organismal Biology </br>
   Minor: Environmental Studies and Sustainability 
 
 ***
 ## __PUBLICATIONS__</br>
+__Blumstein DM__ and MacManes, MD. Physiology: a natural laboratory for studies of ecology and evolution (In Prep).
+
 __Blumstein DM__, Colella, JP, E Linder, and MacManes, MD. High total water loss driven by low-fat diet in desert-adapted mice. bioRxiv 2022.04.15.488461; doi: https://doi.org/10.1101/2022.04.15.488461
 
 Colella, JP, __DM Blumstein__, and MD MacManes. 2021. Disentangling environmental drivers of circadian metabolism in desert-adapted mice. Journal of Experimental Biology. 224 (18): jeb242529.
@@ -117,9 +119,9 @@ __Blumstein DM__, Mays D, Scribner KT (2017) Spatial genetic structure and recru
 ### __Professional Service:__</br>
 _2022, 2021_ Invited Judge College of Life Science and Agriculture Undergraduate Research Conference, University of New Hampshire
 
-_2022_ Guest lecture, Science Communication, University of New Hampshire 
+_2022_ Guest lecture, Science Communication (BIOL 950), University of New Hampshire 
 
-_2022_ Guest lecture, Animal Physiology, University of New Hampshire
+_2022_ Guest lecture, Animal Physiology (ZOOL 625), University of New Hampshire
 
 _2022_ Session Chair, The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona
 
@@ -132,12 +134,15 @@ _2019_ Judge Jim and Katie Krause College of Natural Resources Student Research 
 _2018_ Guest lecture, Principles of Genetics (Biology 210), University of Wisconsin – Stevens Point 
 
 ### __Workshops:__</br>
+_2022_ Curriculum vitae Workshop. American Society of Mammologists, Tucson, Arizona.
+
+_2022_ Faculty Launch Workshop. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona.
+
 _2021_ RNA-Seq Concepts, Design & Workflows. Common Fund Data Ecosystem, UC Davis.
 
 _2018_ NFS -funded expert workshop for the development of a global experiment to understand Coregonid adaptive response to changing thermal regimes. Thonon – les – Bains, France. 
 
 _2017_ RAD Sequencing Workshop. Molecular Conservation Genetics Laboratory, University of Wisconsin – Stevens Point. 
-
 _2016_ Microsatellite Genotyping Workshop. Molecular Ecology Laboratory, Michigan State University. 
 
 _2015_ Ecology and Plant Systematics Field Courses. Kellogg Biological Station, Michigan. 2014. MDNR Fish Sampling Techniques Course. Gaylord, Michigan. 
@@ -190,7 +195,7 @@ BMS 501 Microbes in Human Disease, TA, Fall 2020, 2021, University of New Hampsh
 ### __Mammal:__</br>
 -	Metabolic phenotyping with Sable Systems Field Metabolic System (FMS)
 -	Mouse colony management
--	Small mammal trapping
+-	Small mammal trapping and ear tagging
 -	Desert mouse identification 
 -	Mouse dissections and tissue extraction for RNA
 -	Implantation of PIT tags 
@@ -220,7 +225,7 @@ BMS 501 Microbes in Human Disease, TA, Fall 2020, 2021, University of New Hampsh
 
 - [GitHub](https://github.com/DaniBlumstein)
 
-- [Download CV](pdf/DanielleBlumsteinCV_4_19_22.pdf)
+- [Download CV](pdf/DanielleBlumsteinCV_5_10_22.pdf)
 
 
 </div>
