@@ -1,7 +1,7 @@
 library(rsconnect)
 rsconnect::setAccountInfo(name='104wj0-dani0blumstein',
                           token='AC72BFC5DD07BF3A53E1A9D62E0321F6',
-                          secret='<SECRET>')
+                          secret='OO2SE3WHgkeY+DQ0St7GBYdNWjpP9PZoOaLH+1kd')
 
 library(ggplot2)
 library(shiny)
