@@ -1,6 +1,6 @@
 library(rsconnect)
 rsconnect::setAccountInfo(name='104wj0-dani0blumstein',
-                          token='6558579B24BDD9974D8411F722FEFD66',
+                          token='AC72BFC5DD07BF3A53E1A9D62E0321F6',
                           secret='<SECRET>')
 
 library(ggplot2)
