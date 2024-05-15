@@ -25,10 +25,12 @@ output:
 <br/>
 
 
-# __Danielle Blumstein, Ph.D. Student__<br/>
-I am a PhD student interested in genome evolution and adaptive diversity. My current research is focused on investigating the genomic basis of desert adaptations in desert mice _(Peromyscus)_. 
+# __Danielle Blumstein, Ph.D.__<br/>
+I am interested in genome evolution and adaptive diversity. My current research is focused on investigating the physiological and genomic basis of high altitude adaptations in deer mice _(Peromyscus Sp.)_. 
 
 <br/>
+<br/>
+- Postdoc labs:(https://velottalab.com/)(http://www.sennerlab.com/)
 <br/>
 - [PhD lab](https://macmanes.weebly.com/)
 <br/>
@@ -37,7 +39,7 @@ I am a PhD student interested in genome evolution and adaptive diversity. My cur
 </div>
 
 <br/>
-I started getting involved in research as an undergrad at Michigan State University where I worked in two research labs, one where I collected and analyzed genetic and ecological data for lake sturgeon _(Acipenser fulvescens)_, burbot _(Lota lota)_, and various aquatic invasive species and the other where I conducted field and greenhouse experiments to study the latitudinal biodiversty gradient. After completing my B.S. in zoology, I moved to the University of Wisconsin - Stevens Point and earned a M.Sc. in Natural Resources and developed a haploid linkage map for cisco _(Coregonus artedi)_. While the main use of the linkage map will be to examine the cisco species complex and inland and Great Lakes population variation, I used the map to study how the salmonid family has genomically evolved post whole genome duplication.
+I started getting involved in research as an undergrad at Michigan State University where I worked in two research labs, one where I collected and analyzed genetic and ecological data for lake sturgeon _(Acipenser fulvescens)_, burbot _(Lota lota)_, and various aquatic invasive species and the other where I conducted field and greenhouse experiments to study the latitudinal biodiversity gradient. After completing my B.S. in zoology, I moved to the University of Wisconsin - Stevens Point and earned a M.Sc. in Natural Resources and developed a haploid linkage map for cisco _(Coregonus artedi)_. While the main use of the linkage map will be to examine the cisco species complex and inland and Great Lakes population variation, I used the map to study how the salmonid family has genomically evolved post whole genome duplication. During my PhD at the University of New Hampshire I focused on the physiological and genomic adaptations of desert mice _(Peromyscus eremicus)_ using modern respirometry and RNAseq methods. 
 <br/>
 
 ***
@@ -57,7 +59,7 @@ I started getting involved in research as an undergrad at Michigan State Univers
 
 ***
 <left>
-Contact me: dani.blumstein@gmail.com or dmb1086@wildcats.unh.edu 
+Contact me: dani.blumstein@gmail.com or danielle.blumstein@du.edu
 
 <div class="row">
 <a href="https://twitter.com/DaniBlumstein" class="twitter-follow-button" data-show-count="false">Follow: @DaniBlumstein</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

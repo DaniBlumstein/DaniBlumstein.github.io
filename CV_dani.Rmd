@@ -1,7 +1,7 @@
 ---
 title: "Danielle Blumstein"
 author: "dani.blumstein@gmail.com"
-date: "4/11/2021"
+date: "5/10/22"
 output: html_document
 ---
 
@@ -30,13 +30,15 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <br/>
 
 ***
+## __APPOINTMENTS__
+- Present - __Postdoctoral Research Fellow__; University of Denver and University of Massachusetts – Amherst. 2024 – Present 
 
-
+***
 ## __EDUCATION__
 
-### __Univeristy of New Hampshire__, Durham, NH
-- Present - __Ph.D Molecular and Evolutionary Systems Biology __; </br>
-    Genotypic and phonotypic consequences of desert physiology
+### __University of New Hampshire__, Durham, NH
+- 2024 - __Ph.D Molecular and Evolutionary Systems Biology __; </br>
+    Genotypic and phonotypic adaptations of desert physiology
 </br>
     Advisor: Matt MacManes</br>
 
@@ -46,16 +48,20 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 </br>
     Advisor: Wes Larson</br>
     
-### __Michigan State Univeristy__, East Lansing, MI </br>
--  2017 - __BS in Zoology__</br>
+### __Michigan State University__, East Lansing, MI </br>
+- 2017 - __BS in Zoology__</br>
+  Concentration: Ecology, Evolution, and Organismal Biology </br>
+  Minor: Environmental Studies and Sustainability 
 
 ***
 ## __PUBLICATIONS__</br>
-__Blumstein DM__, Colella, JP, and MacManes, MD. (In Prep). Evaporative water loss driven by low fat diet in desert-adapted mice.
+__Blumstein DM__. 2024 Survival Strategies in Arid Environments: Exploring Desert Adaptations in Peromyscus eremicus. PhD dissertation. University of New Hampshire. 
 
-Colella, JP, __Blumstein DM__, and MacManes, MD. (2020). Disentangling environmental drivers of circadian metabolism in desert-adapted mice. bioRxiv.
+__Blumstein DM__ and MacManes, MD. 2023. When the tap runs dry: The physiological effects of acute experimental dehydration in Peromyscus eremicus. Journal of Experimental Biology. J Exp 226 (23): jeb246386. Inside JEB Feature: https://doi.org/10.1242/jeb.246924. JEB ECR Spotlight: https://doi.org/10.1242/jeb.246936.
 
-__Blumstein, DM__, Campbell, M. A., Hale, M. C., Sutherland, B. J., McKinney, G. J., Stott, W., & Larson, W. A. (2019). Comparative genomic analyses and a novel linkage map for cisco _(Coregonus artedi)_ provides insight into chromosomal evolution and rediploidization across salmonids. _bioRxiv, 834937_.
+Colella, JP, __DM Blumstein__, and MD MacManes. 2021. Disentangling environmental drivers of circadian metabolism in desert-adapted mice. Journal of Experimental Biology. 224 (18): jeb242529.
+
+__Blumstein, DM__, Campbell, M. A., Hale, M. C., Sutherland, B. J., McKinney, G. J., Stott, W., & Larson, W. A. (2019). Comparative genomic analyses and a novel linkage map for cisco _(Coregonus artedi)_ provides insight into chromosomal evolution and rediploidization across salmonids. G3, 10(8):2863-2878.
 
 __Blumstein, DM__, The first haploid linkage map in a coregonid _(Coregonus artedi)_ improves knowledge of chromosomal evolution and rediploidization across Salmonids. _Master's thesis. University of Wisconsin-Stevens Point_ 
 
@@ -64,9 +70,28 @@ __Blumstein, DM__, Mays D, Scribner KT. (2017). Spatial genetic structure and re
 Waraniak JM, __Blumstein DM__, Scribner KT. (2017). Barcoding PCR primers detect larval lake sturgeon (Acipenser fulvescens) in diets of piscine predators. _Conservation Genetics Resources_, 10(2):259-268. 
 
 ***
+## __PUBLICATIONS IN PRESS/IN REVIEW/ IN PREP__</br>
+__Blumstein DM__ and MacManes, MD. 2024 Impacts of dietary fat on multi tissue gene expression in the desert-adapted cactus mouse. bioRxiv. In Review.
+
+__Blumstein DM__ and MacManes, MD. 2024 When the tap runs dry: The multi-tissue gene expression and physiological responses of water deprived Peromyscus eremicus. bioRxiv. In Review.
+
+__Blumstein DM__, Colella, JP, E Linder, and MacManes, MD. High total water loss driven by low-fat diet in desert-adapted mice. bioRxiv 2022. In Review.
+
+***
 ## __RESEARCH PRESENTATIONS__</br>
-(Presenter bolded)</br>
-__Blumstein, DM__, Jocelyn Colella, Matthew MacManes (2021). Food for thought: Evaporative water loss driven by low-fat diet in desert-adapted mice. Annual Meeting of the American Society of Mammalogists, Virtual Conference Platform. _[poster]_
+__Blumstein DM__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Evolution, Cleveland, Ohio _[oral presentation]_
+
+__Blumstein DM.__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. American Society of Mammologists, Tucson, Arizona. _[oral presentation]_
+
+Donatelli C., __Blumstein, DM.__, MacManes MD (2022) Changes in gene expression in the cactus mouse (Peromyscus eremicus) due to diet composition. Undergraduate Research Conference, University of New Hampshire. _[poster]_ 
+
+__Blumstein DM.__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Graduate Research Conference, University of New Hampshire. _[poster]_ 
+
+__Blumstein, DM__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona. _[oral presentation]_
+
+__Blumstein, DM__, (2021). When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Molecular, Cellular, Biomedical Sciences, University of New Hampshire. _[oral presentation]_
+
+__Blumstein, DM__, Colella JP, MacManes MD (2021). Food for thought: Evaporative water loss driven by low-fat diet in desert-adapted mice. Annual Meeting of the American Society of Mammalogists, Virtual Conference Platform. _[poster]_
 
 __Blumstein, DM__ (2021). How to survive an extreme environment: a lesson from the cactus mouse. Three Minute Thesis, University of New Hampshire. _[oral presentation]_
 
@@ -90,8 +115,6 @@ __Blumstein DM__, Scribner KT (2015) Genetic assessment of the male reproductive
 
 ***
 ## __INVITED TALKS__</br>
-(Presenter bolded)</br>
-
 __Blumstein, DM__, Campbell, M. A., Hale, M. C., Sutherland, B. J., McKinney, G. J., Stott, W., & Larson, W. A. (2019). Comparative genomic analyses and a novel linkage map for cisco _(Coregonus artedi)_ provides insight into chromosomal evolution and rediploidization across salmonids. Department of Molecular, Cellular & Biomedical Science Hubbard Center for Genomic Studies, University of New Hampshire.
 
 __Blumstein DM__, Stott W, Larson WA (2018) Development of a genetic linkage map for cisco _(Coregonus artedi)_  to facilitate integrated studies of adaptive diversity. University of Wisconsin – Stevens Point Student-Sub Unit of American Fisheries Society.
@@ -103,7 +126,35 @@ __Blumstein DM__, Mays D, Scribner KT (2017) Spatial genetic structure and recru
 ***
 ## __RESEARCH and PROFESIONAL EXPERIENCE__</br>
 
+### __Professional Service:__</br>
+_2024, 2023, 2022, 2021_ Invited Judge College of Life Science and Agriculture Undergraduate Research Conference, University of New Hampshire
+
+_2023-2024_ Elected COLSA Senator, Grad Student Senate, University of New Hampshire.
+
+_Fall 2022, 2023_ BISC 580 Conservation Physiology, Guest lecture, University of Mississippi.
+
+_Fall 2022_ BIOL 950 Science Communication, panelist, University of New Hampshire. 
+
+_Spring 2022, 2023_ ZOOL 625 Animal Physiology, Guest lecture, University of New Hampshire.
+
+_2022_ Session Chair, The Society for Integrative & Comparative Biology Annual Meeting. 
+Phoenix, Arizona
+
+_2022, 2021_ Grad student social coordinator in the Department of Molecular, Cellular, Biomedical Sciences, University of New Hampshire
+
+_2021_ Presenter, multiple one hour class periods: Intro to R programming language and R studio, The Department of Molecular, Cellular, and Biomedical Sciences, University of New Hampshire
+
+_2019_ Judge Jim and Katie Krause College of Natural Resources Student Research Symposium, University of Wisconsin – Stevens Point. 
+
+_2018_ Guest lecture, Principles of Genetics (Biology 210), University of Wisconsin – Stevens Point 
+
 ### __Workshops:__</br>
+_2022_ Curriculum vitae Workshop. American Society of Mammologists, Tucson, Arizona.
+
+_2022_ Faculty Launch Workshop. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona.
+
+_2021_ RNA-Seq Concepts, Design & Workflows. Common Fund Data Ecosystem, UC Davis.
+
 _2018_ NFS -funded expert workshop for the development of a global experiment to understand Coregonid adaptive response to changing thermal regimes. Thonon – les – Bains, France. 
 
 _2017_ RAD Sequencing Workshop. Molecular Conservation Genetics Laboratory, University of Wisconsin – Stevens Point. 
@@ -113,63 +164,72 @@ _2016_ Microsatellite Genotyping Workshop. Molecular Ecology Laboratory, Michiga
 _2015_ Ecology and Plant Systematics Field Courses. Kellogg Biological Station, Michigan. 2014. MDNR Fish Sampling Techniques Course. Gaylord, Michigan. 
 
 ### __Outreach:__</br>
-_2019_ Skype a Scientist (middle school). Three classes: Actual Living Scientist. 
+_2019_ Skype a Scientist (middle school). Three classes: Actual Living Scientist
 
 _2019_ Presenter, Science Sleuths (Preschool). Two class periods: What are fish? University of New Hampshire 
 
-_2019_ Judge Jim and Katie Krause College of Natural Resources Student Research Symposium, University of Wisconsin – Stevens Point. 
-
 _2019_ Presenter, STEAM Point Day for Girls (16 middle school students per class). Two class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
-
-_2018_ Guest lecture, Principles of Genetics (Biology 210), University of Wisconsin – Stevens Point 
-
-_2018_ Judge Jim and Katie Krause College of Natural Resources Student Research Symposium, University of Wisconsin – Stevens Point. 
 
 _2018_ Presenter, STEAM Point Day for Boys (16 middle school students per class). Two class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
 
 _2018_ Presenter, STEM Exploration Day at Treehaven (16 middle school students per class). Three class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
 
+### __Teaching Experence:__ </br>
+GEN 604 Principles Of Genetics, TA, Spring 2022, University of New Hampshire</br>
+GEN 711 Genomics and Bioinformatics, TA, Spring 2021, University of New Hampshire</br>
+BMS 501 Microbes in Human Disease, TA, Fall 2020, 2021, University of New Hampshire</br>
 
 ### __Manuscripts reviewed for:__</br>
-
- Transactions of the American Fisheries Society (1)
+- Molecular Ecology (2)
+- Transactions of the American Fisheries Society (1)
 
 *** 
 ## __SKILLS__</br>
 ### __Laboratory:__</br>
-- 96 well Qiagen/Promega DNA extraction (tissue) 
-- Qiagen single tube DNA extraction (tissue, diet samples, eDNA, insects)
-- Agarose and polyacrylamide gel electrophoresis
-- qPCR
-- PCR optimization & clean up
-- Microsatellite genotyping
-- DNA quantification (nanodrop and PicoGreen) 
-- Plate prep for ABI 3730
-- RAD library preparation and data management
-- Trizol RNA extraction
-- NEB RNAseq library preperation
+-	96 well Qiagen/Promega DNA extraction 
+-	Qiagen single tube DNA extraction (tissue, diet samples, eDNA, insects) 
+-	Trizol RNA extraction
+-	Agarose and polyacrylamide gel electrophoresis 
+-	PCR, qPCR optimization & clean up 
+-	Microsatellite genotyping 
+-	DNA quantification (nanodrop and PicoGreen)  
+-	Plate prep for ABI 3730 
+-	NEB RNAseq library preperation
+-	RAD (ddRAD, bestRAD) library preparation and data management 
+
 
 ### __Computer:__</br>
-- Graphing: R, GGPlot, and Excel
-- Statistical analysis: R, SAS, Rqtl
-- Software: STACKS, ArcMap, GeneMarker, LepMap, BLAST, Colony Parentage Analysis Program
-- Coding languages: Python, R, BASH, Java, HTML
+-	Programs: STACKS, Rqtl, ArcMap, LepMap, Sable Systems expedata, Colony Parentage Analysis Program 
+-	High performance computing with slurm scheduling  
+-	Microsoft Office (Word, Excel, Powerpoint) 
+-	Image J 
+-	Adobe Photoshop 
+-	Coding languages: Python, R statistical software, BASH, Java, HTML
 - App and Web development: RMarkdown, GitPages, Rshiny
 
-### __Mammal work:__</br>
-- Metabolic phenotyping with Sable Systems Field Metabolic System (FMS)
-- Mouse colony management
-- Small mammal trapping
-- Desert mouse identification
-- Mouse dissections and tissue extraction for RNA
+### __Mammal:__</br>
+-	Metabolic phenotyping with Sable Systems Field Metabolic System (FMS)
+-	Mouse colony management
+-	Small mammal trapping and ear tagging
+-	Desert mouse identification 
+-	Mouse dissections and tissue extraction for RNA
+-	Implantation of PIT tags 
 
-### __Fisheries Field Work:__</br>
+### __Fisheries:__</br>
 - Morphometric measurements
 - Barge and backpack electrofishing
 - Kick net, seine net, drift net, fyke net, trap net, and gill net sampling
 - Implantation of RFID, PIT, and floy tags
 - Tissue sample collection for genetic analyses
 - Fish care and fish feeding, fish disease prevention, identification, and treatment
+
+### __Other:__</br>
+-	Extensive backcountry camping experience 
+-	Snorkeling 
+-	Graphic design 
+-	Knot tying 
+-	Outdoor rock climbing
+-	Driving 4WD vehicles, including manual transmission 
 
 ***
 ## __ADDITIONAL RESOURCES:__
@@ -180,7 +240,7 @@ _2018_ Presenter, STEM Exploration Day at Treehaven (16 middle school students p
 
 - [GitHub](https://github.com/DaniBlumstein)
 
-- [Download CV](pdf/DanielleBlumsteinCV_10_5_20.pdf)
+- [Download CV](pdf/DanielleBlumsteinCV.pdf)
 
 
 </div>

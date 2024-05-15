@@ -1,7 +1,7 @@
 library(rsconnect)
 rsconnect::setAccountInfo(name='104wj0-dani0blumstein',
-                          token='AC72BFC5DD07BF3A53E1A9D62E0321F6',
-                          secret='OO2SE3WHgkeY+DQ0St7GBYdNWjpP9PZoOaLH+1kd')
+                          token='6558579B24BDD9974D8411F722FEFD66',
+                          secret='hf5NT9bDE6WJIFmAY0ure3gTKfwTPkK5MYxnEm9H')
 
 library(ggplot2)
 library(shiny)
@@ -9,7 +9,7 @@ library(dplyr)
 library(lubridate)
 library(tidyverse)
 
-df <- read.csv("diet_analysis_data.csv")
+df <- read.csv("data_final.csv")
 
 sex_list <- unique(df$Sex)
 experiment_list <- unique(df$experiment)
@@ -30,19 +30,19 @@ ui <- fluidPage(
                   label = "Choose a variable to display",
                   choices = list("VO2", 
                                  "VCO2",
-                                 "H2Omg",
-                                 "EE",
+                                 "H2Og",
+                                 "EE_kJH",
                                  "RQ"),
-                  selected = "EE"),
+                  selected = "EE_kJH"),
       
       # Copy the chunk below to make a group of checkboxes
-      checkboxGroupInput('sex', 'Sex',
+      checkboxGroupInput('Sex', 'Sex',
                          sex_list,
                          selected = sex_list),
-      checkboxGroupInput('exp', 'Experiment',
+      checkboxGroupInput('experiment', 'experiment',
                          experiment_list,
                          selected = experiment_list),
-      checkboxGroupInput('time', 'Time',
+      checkboxGroupInput('TimeOfDay', 'TimeOfDay',
                          time_list,
                          selected = time_list),
 
@@ -68,7 +68,7 @@ ui <- fluidPage(
                After 21:00, conditions are held constant over the dark phase until 06:00. At 06:00, where the light phase is initiated and there is a gradual 3-hour transition from cool temperatures and higher humidity (24°C and 25% RH) to warmer temperatures and lower humidity (32°C and 10% RH)."),
       br(),
       h4("Variables"),
-      p("- EE = energy expenditure, the 'real' metaboic rate of an organism, often expressed in kiocalories per hour, 0.06 * (3.941 * VO2 + 1.106 * VCO2)"),
+      p("- EE_kJH = energy expenditure, the 'real' metaboic rate of an organism, often expressed in kiocalories per hour, 4.1868*0.06*(3.941*VO2 + 1.106*VCO2)"),
       p("- VO2 = rate of O2 consumption, often expressed as milliters per minute, per hour, or per second, FRdry*(delta_O2-deltaCO2*0.2095)/(1-0.2095)"),
       p("- VCO2 = rate of CO2 emission, often expressed as milliters per minute, per hour, or per second, FRdry*(DeltaCO2 +delta_O2*FiCO2)/(1+FiCO2)"),
       p("- H2Omg = rate of H2O emission, measured in miligrams per minute, per hour, or per second, 0.0803*FRdry*deltaH2O/(1-FiH2O)"),
@@ -80,9 +80,26 @@ ui <- fluidPage(
       p("- cold = measurments collected under constant night time conditions, 24°C and relative humidity of 25%, and normal photoperiodic cycle"),
       p("- night = a subset of the data for meauremtns takens only during the dark phase of the photoperiodic cycle",
       p("- day = a subset of the data for meauremtns takens only during the light phase of the photoperiodic cycle"),
+      p("- baseline, Standard, yes water = measurments collected under constant day time conditions and normal photoperiodic cycle"),
+      p("- day 1,2,3,and 4 no water = measurments collected under constant day time conditions and normal photoperiodic cycle for mice without access to water for 1,2,3, and 4 days"),
+      
+      
       br(),
       h4("Additional information"),
       h5("MacManes Lab publications"),
+     
+       tags$a(href="https://www.researchgate.net/publication/380424236_SURVIVAL_STRATEGIES_IN_ARID_ENVIRONMENTS_EXPLORING_DESERT_ADAPTATIONS_IN_PEROMYSCUS_EREMICUS?_sg%5B0%5D=cObGFnbBRFqjDYtkZQ6zktVYMF4FyQYMPO-ps878Mr2zhewZ1RUbXdSvITkDSull32FGSe9uhbh8TO7Z63KG7o0UHTXxibxV0ux7K001.sDa4jZ5_DV8xNByyFvE5UF7iyZs5g-iWoU-hPJ6z5QFG0lJy5PE5ZuFJsS9D0lHH8biVW1Hf50BgHy2gyAn0Iw&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19", "Survival Strategies in Arid Environments: Exploring Desert Adaptations in Peromyscus eremicus. PhD dissertation. University of New Hampshire.", target="_blank"),
+      br(),
+      tags$a(href="https://journals-biologists-com.unh.idm.oclc.org/jeb/article/226/23/jeb246924/335759/Parched-cactus-mice-save-water-by-curbing-their", "Inside JEB Feature: Parched cactus mice save water by curbing their appetite", target="_blank"),
+      br(),
+      tags$a(href="https://journals-biologists-com.unh.idm.oclc.org/jeb/article/226/23/jeb246936/335760/ECR-Spotlight-Danielle-Blumstein", "JEB ECR Spotlight – Danielle Blumstein", target="_blank"),
+      br(),
+      tags$a(href="https://www.biorxiv.org/content/10.1101/2024.05.03.592397v1.abstract", "Impacts of dietary fat on multi tissue gene expression in the desert-adapted cactus mouse", target="_blank"),
+      br(),
+      tags$a(href="https://www.biorxiv.org/content/10.1101/2024.01.22.576658v2.abstract", "When the tap runs dry: The multi-tissue gene expression and physiological responses of water deprived Peromyscus eremicus", target="_blank"),
+      br(),
+      tags$a(href="https://www.biorxiv.org/content/10.1101/2022.04.15.488461v3.abstract", "High total water loss driven by low-fat diet in desert-adapted mice", target="_blank"),
+      br(),
       tags$a(href="https://www.biorxiv.org/content/10.1101/2020.12.18.423523v1.abstract", "Disentangling environmental drivers of circadian metabolism in desert-adapted mice", target="_blank"),
       br(),
       tags$a(href="https://www.biorxiv.org/content/10.1101/2020.06.29.178392v3", "Limited evidence for parallel evolution among desert adapted Peromyscus deer mice", target="_blank"),
@@ -121,9 +138,9 @@ by John R. B. Lighton", target="_blank"),
 server <- function(input, output) {
   
   filteredData <- reactive({
-    df %>% filter(Sex %in% input$sex &
-                      experiment %in% input$exp &
-                      TimeOfDay %in% input$time )
+    df %>% filter(Sex %in% input$Sex &
+                      experiment %in% input$experiment &
+                      TimeOfDay %in% input$TimeOfDay )
   })
   
   
@@ -133,12 +150,20 @@ server <- function(input, output) {
   })
 
   output$plot<-renderPlot({
-    ggplot(selectedData(),aes(x=as.POSIXct(hms(StartTime),origin = "1964-10-22"), color = experiment, shape=Sex))+
-      geom_point(aes_string(y=input$var))+
-      scale_colour_viridis_d()+
-      #theme(axis.text.x = element_blank())+
-      labs(x = "hour")+
-      scale_x_datetime(date_breaks = "3 hours", date_labels = "%H:%M")
+    ggplot(selectedData(),aes(x=as.POSIXct(hms(StartTime),origin = "1970-01-01"), color = experiment, shape=Sex))+
+      scale_x_datetime(date_breaks = "3 hours", date_labels = "%H:%M")+
+      annotate("rect", xmin = as.POSIXct("1970-01-01 00:00:01", tz="UTC"), 
+               xmax = as.POSIXct("1970-01-01 06:00:00", tz="UTC"), 
+               ymin = -Inf, ymax = Inf, fill="grey84") +
+      annotate("rect", xmin = as.POSIXct("1970-01-01 21:00:00", tz="UTC"), 
+               xmax = as.POSIXct("1970-01-01 23:59:59", tz="UTC"), 
+               ymin = -Inf, ymax = Inf, fill="grey84") +
+      geom_point(aes_string(y=input$var),alpha=.3, size=1)+
+      geom_smooth(aes_string(y=input$var),method='gam',se = FALSE)+
+      theme_minimal()+
+      facet_wrap(~Sex)+
+      labs(x = "hour")
+    
     },
     height = 600,width = 800)
   }
