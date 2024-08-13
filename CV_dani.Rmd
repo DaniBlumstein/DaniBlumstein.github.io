@@ -30,10 +30,6 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <br/>
 
 ***
-## __APPOINTMENTS__
-- Present - __Postdoctoral Research Fellow__; University of Denver and University of Massachusetts – Amherst. 2024 – Present 
-
-***
 ## __EDUCATION__
 
 ### __University of New Hampshire__, Durham, NH
@@ -55,9 +51,11 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ***
 ## __PUBLICATIONS__</br>
+__Blumstein DM__ and MacManes, MD. 2024 The multi-tissue gene expression and physiological responses of water deprived Peromyscus eremicus. BMC Genomics 25, 770. 
+
 __Blumstein DM__. 2024 Survival Strategies in Arid Environments: Exploring Desert Adaptations in Peromyscus eremicus. PhD dissertation. University of New Hampshire. 
 
-__Blumstein DM__ and MacManes, MD. 2023. When the tap runs dry: The physiological effects of acute experimental dehydration in Peromyscus eremicus. Journal of Experimental Biology. J Exp 226 (23): jeb246386. Inside JEB Feature: https://doi.org/10.1242/jeb.246924. JEB ECR Spotlight: https://doi.org/10.1242/jeb.246936.
+__Blumstein DM__ and MacManes, MD. 2023. When the tap runs dry: The physiological effects of acute experimental dehydration in Peromyscus eremicus. Journal of Experimental Biology. J Exp 226 (23): jeb246386.
 
 Colella, JP, __DM Blumstein__, and MD MacManes. 2021. Disentangling environmental drivers of circadian metabolism in desert-adapted mice. Journal of Experimental Biology. 224 (18): jeb242529.
 
@@ -71,14 +69,26 @@ Waraniak JM, __Blumstein DM__, Scribner KT. (2017). Barcoding PCR primers detect
 
 ***
 ## __PUBLICATIONS IN PRESS/IN REVIEW/ IN PREP__</br>
-__Blumstein DM__ and MacManes, MD. 2024 Impacts of dietary fat on multi tissue gene expression in the desert-adapted cactus mouse. bioRxiv. In Review.
-
-__Blumstein DM__ and MacManes, MD. 2024 When the tap runs dry: The multi-tissue gene expression and physiological responses of water deprived Peromyscus eremicus. bioRxiv. In Review.
+__Blumstein DM__ and MacManes, MD. 2024 Impacts of dietary fat on multi tissue gene expression in the desert-adapted cactus mouse. bioRxiv. In Press
 
 __Blumstein DM__, Colella, JP, E Linder, and MacManes, MD. High total water loss driven by low-fat diet in desert-adapted mice. bioRxiv 2022. In Review.
 
 ***
+## __PRESS__</br>
+- Inside JEB Feature: https://doi.org/10.1242/jeb.246924. 
+- JEB ECR Spotlight: https://doi.org/10.1242/jeb.246936. 
+- UNH Today: https://www.unh.edu/unhtoday/2024/05/desert-mice-offer-insight-potential-climate-change-adaptations
+
+***
 ## __RESEARCH PRESENTATIONS__</br>
+Sarah Nicholls, Sarah Couture, __Blumstein, DM__, MacManes MD (2024) Using RNA Sequencing to Examine the Dehydration Response in the Hypothalamus and Pituitary Gland of a Desert-Adapted Mouse (poster). 3rd Joint Congress on Evolutionary Biology. Montreal, QC, Canada.
+
+Sarah Nicholls, Sarah Couture, __Blumstein, DM__, MacManes MD (2024) Using RNA Sequencing to Examine the Dehydration Response in the Hypothalamus and Pituitary Gland of a Desert-Adapted Mouse (poster). Undergraduate Research Conference, University of New Hampshire
+
+__Blumstein DM__ (2024). Survival Strategies in Arid Environments: Exploring Desert Adaptations in Peromyscus eremicus. PhD dissertation. University of New Hampshire. 
+
+__Blumstein DM__, MacManes MD (2023) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. American Society of Mammologists, Anchorage, Alaska.
+
 __Blumstein DM__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Evolution, Cleveland, Ohio _[oral presentation]_
 
 __Blumstein DM.__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. American Society of Mammologists, Tucson, Arizona. _[oral presentation]_
@@ -127,59 +137,56 @@ __Blumstein DM__, Mays D, Scribner KT (2017) Spatial genetic structure and recru
 ## __RESEARCH and PROFESIONAL EXPERIENCE__</br>
 
 ### __Professional Service:__</br>
-_2024, 2023, 2022, 2021_ Invited Judge College of Life Science and Agriculture Undergraduate Research Conference, University of New Hampshire
+- _2024, 2023, 2022, 2021_ Invited Judge College of Life Science and Agriculture Undergraduate Research Conference, University of New Hampshire
 
-_2023-2024_ Elected COLSA Senator, Grad Student Senate, University of New Hampshire.
+- _2023-2024_ Elected COLSA Senator, Grad Student Senate, University of New Hampshire.
 
-_Fall 2022, 2023_ BISC 580 Conservation Physiology, Guest lecture, University of Mississippi.
-
-_Fall 2022_ BIOL 950 Science Communication, panelist, University of New Hampshire. 
-
-_Spring 2022, 2023_ ZOOL 625 Animal Physiology, Guest lecture, University of New Hampshire.
-
-_2022_ Session Chair, The Society for Integrative & Comparative Biology Annual Meeting. 
+- _2022_ Session Chair, The Society for Integrative & Comparative Biology Annual Meeting. 
 Phoenix, Arizona
 
-_2022, 2021_ Grad student social coordinator in the Department of Molecular, Cellular, Biomedical Sciences, University of New Hampshire
+- _2022, 2021_ Grad student social coordinator in the Department of Molecular, Cellular, Biomedical Sciences, University of New Hampshire
 
-_2021_ Presenter, multiple one hour class periods: Intro to R programming language and R studio, The Department of Molecular, Cellular, and Biomedical Sciences, University of New Hampshire
+- _2021_ Presenter, multiple one hour class periods: Intro to R programming language and R studio, The Department of Molecular, Cellular, and Biomedical Sciences, University of New Hampshire
 
-_2019_ Judge Jim and Katie Krause College of Natural Resources Student Research Symposium, University of Wisconsin – Stevens Point. 
-
-_2018_ Guest lecture, Principles of Genetics (Biology 210), University of Wisconsin – Stevens Point 
+- _2019_ Judge Jim and Katie Krause College of Natural Resources Student Research Symposium, University of Wisconsin – Stevens Point. 
 
 ### __Workshops:__</br>
-_2022_ Curriculum vitae Workshop. American Society of Mammologists, Tucson, Arizona.
+- _2022_ Curriculum vitae Workshop. American Society of Mammologists, Tucson, Arizona.
 
-_2022_ Faculty Launch Workshop. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona.
+- _2022_ Faculty Launch Workshop. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona.
 
-_2021_ RNA-Seq Concepts, Design & Workflows. Common Fund Data Ecosystem, UC Davis.
+- _2021_ RNA-Seq Concepts, Design & Workflows. Common Fund Data Ecosystem, UC Davis.
 
-_2018_ NFS -funded expert workshop for the development of a global experiment to understand Coregonid adaptive response to changing thermal regimes. Thonon – les – Bains, France. 
+- _2018_ NFS -funded expert workshop for the development of a global experiment to understand Coregonid adaptive response to changing thermal regimes. Thonon – les – Bains, France. 
 
-_2017_ RAD Sequencing Workshop. Molecular Conservation Genetics Laboratory, University of Wisconsin – Stevens Point. 
+- _2017_ RAD Sequencing Workshop. Molecular Conservation Genetics Laboratory, University of Wisconsin – Stevens Point. 
 
-_2016_ Microsatellite Genotyping Workshop. Molecular Ecology Laboratory, Michigan State University. 
+- _2016_ Microsatellite Genotyping Workshop. Molecular Ecology Laboratory, Michigan State University. 
 
-_2015_ Ecology and Plant Systematics Field Courses. Kellogg Biological Station, Michigan. 2014. MDNR Fish Sampling Techniques Course. Gaylord, Michigan. 
+- _2015_ Ecology and Plant Systematics Field Courses. Kellogg Biological Station, Michigan. 2014. MDNR Fish Sampling Techniques Course. Gaylord, Michigan. 
 
 ### __Outreach:__</br>
-_2019_ Skype a Scientist (middle school). Three classes: Actual Living Scientist
+- _2019_ Skype a Scientist (middle school). Three classes: Actual Living Scientist
 
-_2019_ Presenter, Science Sleuths (Preschool). Two class periods: What are fish? University of New Hampshire 
+- _2019_ Presenter, Science Sleuths (Preschool). Two class periods: What are fish? University of New Hampshire 
 
-_2019_ Presenter, STEAM Point Day for Girls (16 middle school students per class). Two class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
+- _2019_ Presenter, STEAM Point Day for Girls (16 middle school students per class). Two class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
 
-_2018_ Presenter, STEAM Point Day for Boys (16 middle school students per class). Two class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
+- _2018_ Presenter, STEAM Point Day for Boys (16 middle school students per class). Two class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
 
-_2018_ Presenter, STEM Exploration Day at Treehaven (16 middle school students per class). Three class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
+- _2018_ Presenter, STEM Exploration Day at Treehaven (16 middle school students per class). Three class periods: Evolution Board Game. University of Wisconsin – Stevens Point 
 
 ### __Teaching Experence:__ </br>
-GEN 604 Principles Of Genetics, TA, Spring 2022, University of New Hampshire</br>
-GEN 711 Genomics and Bioinformatics, TA, Spring 2021, University of New Hampshire</br>
-BMS 501 Microbes in Human Disease, TA, Fall 2020, 2021, University of New Hampshire</br>
+- BISC 580 Conservation Physiology, Guest lecture, Fall 2022, 2023, 2024 University of Mississippi
+- BIOL 950 Science Communication, panelist, Fall 2022, UNH 
+- GEN 604 Principles of Genetics, TA, Spring 2022, UNH
+- ZOOL 625 Animal Physiology, Guest lecture, Spring 2022, 2023, UNH
+- GEN 711 Genomics and Bioinformatics, TA, Spring 2021, UNH
+- BMS 501 Microbes in Human Disease, TA, Fall 2020, 2021, UNH
+- Biology 210, Principles of Genetics, Guest lecture, 2018, University of Wisconsin – Stevens Point 
 
 ### __Manuscripts reviewed for:__</br>
+- Ecological and Evolutionary Physiology (1)
 - Molecular Ecology (2)
 - Transactions of the American Fisheries Society (1)
 
@@ -196,7 +203,6 @@ BMS 501 Microbes in Human Disease, TA, Fall 2020, 2021, University of New Hampsh
 -	Plate prep for ABI 3730 
 -	NEB RNAseq library preperation
 -	RAD (ddRAD, bestRAD) library preparation and data management 
-
 
 ### __Computer:__</br>
 -	Programs: STACKS, Rqtl, ArcMap, LepMap, Sable Systems expedata, Colony Parentage Analysis Program 

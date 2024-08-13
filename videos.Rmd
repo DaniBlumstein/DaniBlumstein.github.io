@@ -64,6 +64,18 @@ body {
 </head>
 <body>
 
+<div class="header" id="myHeader">
+<h1>PhD Defense</h1>
+Survival Strategies in Arid Environments: Exploring Desert Adaptations in Peromyscus eremicus </br>
+__University of New Hampshire__<br/>
+April 18, 2024   
+<br/>
+<video width=100% height="500" controls>
+  <source src="defense.mp4" type="video/mp4">
+</video>
+</body>
+</html>
+
 <!-- Header -->
 <div class="header" id="myHeader">
   <h1>Bartlett Experimental Forest</h1>
@@ -324,7 +336,7 @@ for (var i = 0; i < btns.length; i++) {
 <div class="header" id="myHeader">
 <h1>Masters Defense</h1>
 The first haploid linkage map in a coregonid (Coregonus artedi) improves knowledge of chromosomal evolution and rediploidization across Salmonids </br>
-__Univeristy of Wisconsin - Stevens Point, Stevens Point, WI__<br/>
+__University of Wisconsin - Stevens Point, Stevens Point, WI__<br/>
 May 10, 2019   
 <br/>
 <video width=100% height="500" controls>
