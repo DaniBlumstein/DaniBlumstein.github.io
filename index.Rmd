@@ -57,7 +57,7 @@ I started getting involved in research as an undergrad at Michigan State Univers
 
 ***
 <left>
-Contact me: dani.blumstein@gmail.com or danielle.blumstein@du.edu
+Contact me: dani.blumstein@gmail.com
 
 <div class="row">
 <a href="https://twitter.com/DaniBlumstein" class="twitter-follow-button" data-show-count="false">Follow: @DaniBlumstein</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
