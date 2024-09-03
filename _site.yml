@@ -12,7 +12,7 @@ navbar:
       href: sampling_map.html
     - text: "Videos and Pictures"
       href: videos.html
-    - text: "Experiments"
+    - text: "Interactive Graphs"
       href: "graphing_app.html"
     - text: "Interactive Linkage Map"
       href: interactive_LM.html
