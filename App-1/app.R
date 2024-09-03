@@ -8,9 +8,6 @@ library(dplyr)
 library(lubridate)
 library(tidyverse)
 
-require(devtools)
-install_version("colorspace", version = "1.4.1", repos = "http://cran.us.r-project.org")
-
 df <- read.csv("data_final.csv")
 
 sex_list <- unique(df$Sex)
