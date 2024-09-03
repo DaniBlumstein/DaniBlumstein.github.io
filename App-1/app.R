@@ -1,15 +1,17 @@
-library(rsconnect)
+
+#library(devtools)
+##install_version("ggplot2", version = "3.3.3", repos = "http://cran.us.r-project.org")
+
+#library(shiny)
+#library(dplyr)
+#library(lubridate)
+#library(tidyverse)
+#library(rsconnect)
+
 rsconnect::setAccountInfo(name='104wj0-dani0blumstein', 
                           token='6558579B24BDD9974D8411F722FEFD66', 
                           secret='hf5NT9bDE6WJIFmAY0ure3gTKfwTPkK5MYxnEm9H')
 
-
-library(ggplot2)
-library(shiny)
-library(dplyr)
-library(lubridate)
-library(tidyverse)
-library(colorspace)
 
 df <- read.csv("data_final.csv")
 
@@ -173,7 +175,9 @@ server <- function(input, output) {
     
     },
     height = 600,width = 800)
-  }
+}
+
+rsconnect::appDependencies()
 
 # Run the app ----
 shinyApp(ui = ui, server = server)
