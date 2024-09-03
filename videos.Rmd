@@ -81,9 +81,8 @@ April 18, 2024
 </head> 
   
 <body> 
-  
-    <embed width="480" height="500" 
-           src="https://youtu.be/UGPvuMC0s14"> 
+    <embed width=100% height="500" 
+           src="https://youtube.com/embed/UGPvuMC0s14"> 
   
 </body> 
   
@@ -352,8 +351,19 @@ The first haploid linkage map in a coregonid (Coregonus artedi) improves knowled
 __University of Wisconsin - Stevens Point, Stevens Point, WI__<br/>
 May 10, 2019   
 <br/>
-<video width=100% height="500" controls>
-  <source src="masters_defense.mp4" type="video/mp4">
-</video>
-</body>
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0"> 
+    <title>YouTube video embed using embed tag</title> 
+</head> 
+  
+<body> 
+    <embed width=100% height="500" 
+           src="https://youtube.com/embed/SUmcFbpzfi8"> 
+  
+</body> 
+  
 </html>
