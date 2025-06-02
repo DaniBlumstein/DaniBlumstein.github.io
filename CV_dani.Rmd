@@ -1,7 +1,7 @@
 ---
 title: "Danielle Blumstein"
 author: "dani.blumstein@gmail.com"
-date: "9/3/2024"
+date: "6/2/2025"
 output: html_document
 ---
 
@@ -30,6 +30,14 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <br/>
 
 ***
+## __APPOITMENTS__
+
+### __State Fisheries Genomics Lab__
+- 2025 - __Research Associate__,Coastal Oregon Marine Experiment Station, Hatfield Marine Science Center, Oregon State University </br>
+
+### __Field Team Director__
+- May 2024 – September 2024, University of Denver, Colorado</br>
+
 ## __EDUCATION__
 
 ### __University of New Hampshire__, Durham, NH
@@ -51,6 +59,10 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ***
 ## __PUBLICATIONS__</br>
+__Blumstein DM__ and MacManes, MD. 2024. Impacts of dietary fat on multi tissue gene expression in the desert-adapted cactus mouse. Journal of Experimental Biology. J Exp Biol 227 (24): jeb247978.
+
+__Blumstein DM__, Colella, JP, E Linder, and MacManes, MD. 2024. High total water loss driven by low-fat diet in desert-adapted mice, Journal of Mammalogy; gyae093.
+
 __Blumstein DM__ and MacManes, MD. 2024 The multi-tissue gene expression and physiological responses of water deprived Peromyscus eremicus. BMC Genomics 25, 770. 
 
 __Blumstein DM__. 2024 Survival Strategies in Arid Environments: Exploring Desert Adaptations in Peromyscus eremicus. PhD dissertation. University of New Hampshire. 
@@ -67,14 +79,11 @@ __Blumstein, DM__, Mays D, Scribner KT. (2017). Spatial genetic structure and re
 
 Waraniak JM, __Blumstein DM__, Scribner KT. (2017). Barcoding PCR primers detect larval lake sturgeon (Acipenser fulvescens) in diets of piscine predators. _Conservation Genetics Resources_, 10(2):259-268. 
 
-***
-## __PUBLICATIONS IN PRESS/IN REVIEW/ IN PREP__</br>
-__Blumstein DM__ and MacManes, MD. 2024 Impacts of dietary fat on multi tissue gene expression in the desert-adapted cactus mouse. bioRxiv. In Press
-
-__Blumstein DM__, Colella, JP, E Linder, and MacManes, MD. High total water loss driven by low-fat diet in desert-adapted mice. bioRxiv 2022. In Review.
 
 ***
 ## __PRESS__</br>
+- UNH THRIVE Fall 2024: https://colsa.unh.edu/thrive-fall-2024
+- American Society of Mammalogists: https://www.facebook.com/share/p/2vJHy1ohTZzmXHpw/, https://www.instagram.com/p/DAJKmuMhEoF/
 - Inside JEB Feature: https://doi.org/10.1242/jeb.246924. 
 - JEB ECR Spotlight: https://doi.org/10.1242/jeb.246936. 
 - UNH Today: https://www.unh.edu/unhtoday/2024/05/desert-mice-offer-insight-potential-climate-change-adaptations
@@ -203,6 +212,7 @@ Phoenix, Arizona
 -	Plate prep for ABI 3730 
 -	NEB RNAseq library preperation
 -	RAD (ddRAD, bestRAD) library preparation and data management 
+- GT-seq library preparation and data management 
 
 ### __Computer:__</br>
 -	Programs: STACKS, Rqtl, ArcMap, LepMap, Sable Systems expedata, Colony Parentage Analysis Program 
@@ -239,8 +249,6 @@ Phoenix, Arizona
 
 ***
 ## __ADDITIONAL RESOURCES:__
-
-- [Twitter](https://twitter.com/DaniBlumstein)
 
 - [Researchgate](https://www.researchgate.net/profile/Danielle_Blumstein)
 

@@ -1,15 +1,16 @@
-
+---
+title: "graphing_appV2"
+author: "Dani Blumstein"
+date: "2025-04-22"
+output: html_document
+---
+```{r, echo=FALSE}
 library(devtools)
 ##install_version("ggplot2", version = "3.3.3", repos = "http://cran.us.r-project.org")
 library(shiny)
 library(dplyr)
 library(lubridate)
 library(tidyverse)
-library(rsconnect)
-
-rsconnect::setAccountInfo(name='104wj0-dani0blumstein', 
-                          token='6558579B24BDD9974D8411F722FEFD66', 
-                          secret='hf5NT9bDE6WJIFmAY0ure3gTKfwTPkK5MYxnEm9H')
 
 df <- read.csv("data_final.csv")
 
@@ -73,16 +74,16 @@ ui <- fluidPage(
       p("- EE_kJH = energy expenditure, the 'real' metaboic rate of an organism, often expressed in kiocalories per hour, 4.1868*0.06*(3.941*VO2 + 1.106*VCO2)"),
       p("- VO2 = rate of O2 consumption, often expressed as milliters per minute, per hour, or per second, FRdry*(delta_O2-deltaCO2*0.2095)/(1-0.2095)"),
       p("- VCO2 = rate of CO2 emission, often expressed as milliters per minute, per hour, or per second, FRdry*(DeltaCO2 +delta_O2*FiCO2)/(1+FiCO2)"),
-      p("- H2Omg = rate of H2O emission, measured in milliters per minute, per hour, or per second, 0.0803*FRdry*deltaH2O/(1-FiH2O)"),
-      p("- RQ = respirometry quotent. Typically falls within the rage of 0.7-1 for aerobic catabolism of fats and carbs, CO2 eliminated/O2 consumed"),
+      p("- H2Omg = rate of H2O emission, measured in miligrams per minute, per hour, or per second, 0.0803*FRdry*deltaH2O/(1-FiH2O)"),
+      p("- RQ = respiratirt quotent. Typically falls within the rage of 0.7-1 for aerobic catabolism of fats and carbs, CO2 eliminated/O2 consumed"),
+      p("- F =  female"),
+      p("- M = male"),
       p("- Low Fat = measurments collected while on LabDiet 5015, Food quotent = (22.8/100).71+(6.6/100).83+.706 = .92266"),
       p("- hot = measurments collected under constant day time conditions, 32°C and relative humidity of 10%, and normal photoperiodic cycle"),
       p("- cold = measurments collected under constant night time conditions, 24°C and relative humidity of 25%, and normal photoperiodic cycle"),
-      p("- night = a subset of the data for measurments takens only during the dark phase of the photoperiodic cycle",
-      p("- day = a subset of the data for measurments takens only during the light phase of the photoperiodic cycle"),
-      p("- T1 = a subset of the data for measurments takens only during first transistion of the photoperiodic cycle"),
-      p("- T2 = a subset of the data for measurments takens only during second transistion of the photoperiodic cycle"),
-      p("- baseline, standard, yes water = measurments collected under constant day time conditions and normal photoperiodic cycle"),
+      p("- night = a subset of the data for meauremtns takens only during the dark phase of the photoperiodic cycle",
+      p("- day = a subset of the data for meauremtns takens only during the light phase of the photoperiodic cycle"),
+      p("- baseline, Standard, yes water = measurments collected under constant day time conditions and normal photoperiodic cycle"),
       p("- day 1,2,3,and 4 no water = measurments collected under constant day time conditions and normal photoperiodic cycle for mice without access to water for 1,2,3, and 4 days"),
       
       
@@ -171,7 +172,7 @@ server <- function(input, output) {
       facet_wrap(~Sex)+
       labs(x = "hour")
     },
-    height = 600,width = "auto")
+    height = 600,width = 800)
 }
 
 rsconnect::appDependencies()
@@ -179,4 +180,6 @@ rsconnect::appDependencies()
 # Run the app ----
 shinyApp(ui = ui, server = server)
 
+
+```
 

@@ -26,7 +26,7 @@ output:
 
 
 # __Danielle Blumstein, Ph.D.__<br/>
-I am interested in genome evolution and adaptive diversity. My current research is focused on investigating the physiological and genomic basis of high altitude adaptations in deer mice _(Peromyscus Sp.)_. 
+I am interested in genome evolution and adaptive diversity.
 
 <br/>
 <br/>
@@ -37,7 +37,15 @@ I am interested in genome evolution and adaptive diversity. My current research 
 </div>
 
 <br/>
-I started getting involved in research as an undergrad at Michigan State University where I worked in two research labs, one where I collected and analyzed genetic and ecological data for lake sturgeon _(Acipenser fulvescens)_, burbot _(Lota lota)_, and various aquatic invasive species and the other where I conducted field and greenhouse experiments to study the latitudinal biodiversity gradient. After completing my B.S. in zoology, I moved to the University of Wisconsin - Stevens Point and earned a M.Sc. in Natural Resources and developed a haploid linkage map for cisco _(Coregonus artedi)_. While the main use of the linkage map will be to examine the cisco species complex and inland and Great Lakes population variation, I used the map to study how the salmonid family has genomically evolved post whole genome duplication. During my PhD at the University of New Hampshire I focused on the physiological and genomic adaptations of desert mice _(Peromyscus eremicus)_ using modern respirometry and RNAseq methods. 
+I'm fascinated by how all animals—whether fish or mammals—are built from the same basic biological toolkit: a genome and the metabolic processes that take raw materials and turns them into energy. I love using this information to figure out how animals live and thrive in such different habitats, from cold northern lakes to hot, dry deserts.
+
+I got my start in research as an undergrad at Michigan State University, where I worked with lake sturgeon, burbot, and aquatic invasive species—collecting and analyzing genetic and ecological data. I also studied global patterns of biodiversity by conducting field and greenhouse experiments across different latitudes.
+
+For my master's degree at the University of Wisconsin–Stevens Point, I focused on cisco and built a haploid genetic map to better understand the evolutionary history of the salmonid family.
+
+During my PhD at the University of New Hampshire, I shifted habitats and studied desert mice (Peromyscus eremicus). I used genomic and physiological tools, like RNA sequencing and respirometry, to understand how these small mammals survive extreme heat and dryness.
+
+Across all of these experiences, my goal has stayed the same: to use the shared biology that makes an animal an animal to understand how life adapts to Earth's many environments.
 <br/>
 
 ***
@@ -58,12 +66,3 @@ I started getting involved in research as an undergrad at Michigan State Univers
 ***
 <left>
 Contact me: dani.blumstein@gmail.com
-
-<div class="row">
-<a href="https://twitter.com/DaniBlumstein" class="twitter-follow-button" data-show-count="false">Follow: @DaniBlumstein</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<center>
-<div class="row">
-<a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/DaniBlumstein">Tweets by Dani_Blumstein</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
