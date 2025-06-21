@@ -1,0 +1,69 @@
+V1,V2,tissue,pheno,V3,mod
+GO:0062012,regulation of small molecule metabolic process,lu,trt,324,green
+GO:0048514,blood vessel morphogenesis,lu,bodyTemp,619,green
+GO:0031331,positive regulation of cellular catabolic process,lu,bodyTemp,326,green
+GO:0009057,macromolecule catabolic process,lu,TCO2,1412,green
+GO:0045087,innate immune response,lu,wlr,947,green
+GO:0120031,plasma membrane bounded cell projection assembly,lu,iCa,576,green
+GO:0043229,intracellular organelle,lu,EE,15969,green
+GO:0044282,small molecule catabolic process,liv,bodyTemp,379,green
+GO:0030258,lipid modification,liv,bodyTemp,197,green
+GO:0045834,positive regulation of lipid metabolic process,liv,bodyTemp,153,green
+GO:0030097,hemopoiesis,liv,bodyTemp,951,green
+GO:0140993,histone modifying activity,liv,bodyTemp,202,green
+GO:0051054,positive regulation of DNA metabolic process,liv,TCO2,304,green
+GO:0015980,energy derivation by oxidation of organic compounds,liv,iCa,336,green
+GO:0044281,small molecule metabolic process,liv,bodyTemp,1846,green
+GO:0044281,small molecule metabolic process,liv,EE,1846,green
+GO:1990777,lipoprotein particle,liv,EE,38,green
+GO:0044281,small molecule metabolic process,liv,wlr,1846,green
+GO:0006629,lipid metabolic process,liv,wlr,1406,green
+GO:0005746,mitochondrial respirasome,liv,trt,96,green
+GO:0072359,circulatory system development,liv,TCO2,1119,green
+GO:0012507,ER to Golgi transport vesicle membrane,liv,EE,59,green
+GO:0009636,response to toxic substance,liv,TCO2,227,green
+GO:1990748,cellular detoxification,liv,TCO2,113,green
+GO:0098754,detoxification,liv,TCO2,126,green
+GO:0022857,transmembrane transporter activity,liv,wlr,1130,green
+GO:0016787,hydrolase activity,gi,Cl,2446,green
+GO:0042632,cholesterol homeostasis,gi,Crea,88,green
+GO:1905952,regulation of lipid localization,gi,Crea,161,green
+GO:1901702,salt transmembrane transporter activity,gi,Crea,583,green
+GO:0019842,vitamin binding,gi,Crea,150,green
+GO:0072359,circulatory system development,gi,Hb,1119,green
+GO:0097193,intrinsic apoptotic signaling pathway,gi,trt,314,green
+GO:0008219,cell death,gi,wlr,1988,green
+GO:0002758,innate immune response-activating signaling pathway,gi,wlr,239,green
+GO:0009893,positive regulation of metabolic process,gi,wlr,3797,green
+GO:0044255,cellular lipid metabolic process,gi,trt,1003,green
+GO:0048514,blood vessel morphogenesis,gi,wlr,619,green
+GO:0072001,renal system development,gi,wlr,327,green
+GO:0001525,angiogenesis,gi,wlr,529,green
+GO:0051345,positive regulation of hydrolase activity,gi,bodyTemp,558,green
+GO:0033993,response to lipid,gi,bodyTemp,907,green
+GO:0006629,lipid metabolic process,hyp,Crea,1406,green
+GO:1900046,regulation of hemostasis,hyp,TCO2,70,green
+GO:0050818,regulation of coagulation,hyp,TCO2,73,green
+GO:1900047,negative regulation of hemostasis,hyp,TCO2,49,green
+GO:0050819,negative regulation of coagulation,hyp,TCO2,52,green
+GO:0002526,acute inflammatory response,hyp,TCO2,111,green
+GO:0044281,small molecule metabolic process,hyp,bodyTemp,1846,green
+GO:0006950,response to stress,hyp,bodyTemp,3909,green
+GO:0006915,apoptotic process,hyp,bodyTemp,1910,green
+GO:0005201,extracellular matrix structural constituent,hyp,EE,167,green
+GO:0001568,blood vessel development,hyp,EE,707,green
+GO:0001944,vasculature development,hyp,EE,736,green
+GO:0032101,regulation of response to external stimulus,kid,trt,1062,green
+GO:0031323,regulation of cellular metabolic process,kid,bodyTemp,6726,green
+GO:0019222,regulation of metabolic process,kid,bodyTemp,7295,green
+GO:0031331,positive regulation of cellular catabolic process,kid,trt,326,green
+GO:0140096,"catalytic activity, acting on a protein",kid,RQ,2332,green
+GO:0043169,cation binding,kid,RQ,4409,green
+GO:0008219,cell death,kid,wlr,1988,green
+GO:1902001,fatty acid transmembrane transport,kid,wlr,20,green
+GO:0006853,carnitine shuttle,kid,wlr,4,green
+GO:0097367,carbohydrate derivative binding,kid,wlr,2294,green
+GO:0043086,negative regulation of catalytic activity,kid,K,612,green
+GO:0005811,lipid droplet,kid,K,104,green
+GO:0042592,homeostatic process,kid,trt,1704,green
+GO:0042594,response to starvation,kid,RQ,210,green
