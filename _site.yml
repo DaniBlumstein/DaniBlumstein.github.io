@@ -12,10 +12,10 @@ navbar:
       href: sampling_map.html
     - text: "Videos and Pictures"
       href: videos.html
-    - text: "Interactive Graphs"
+    - text: "Interactive Physiology Graphs"
       href: "graphing_app.html"
-    - text: "Interactive Linkage Map"
-      href: interactive_LM.html
+    - text: "Interactive Gene Ontology Networks"
+      href: "graphing_app2.html"
 output:
   html_document:
     theme: sandstone
