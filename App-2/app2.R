@@ -44,12 +44,13 @@ ui <- fluidPage(
       wellPanel(
         div(class = "info-text",
             tags$h4("About This App"),
-            tags$p("This application visualizes gene ontology results from two experiments: diet and water deprivation."),
+            tags$p("This application visualizes gene ontology results to show common significant weighted gene correlation network analysis (WGCNA) modules within and between the tissues of P. eremicus from two experiments: diet and water deprivation."),
             tags$h4("How to Use"),
             tags$ul(
               tags$li("Select a dataset from the dropdown on the left."),
               tags$li("Explore the network graph to see tissue-specific gene ontology associations."),
-              tags$li("Hover over nodes to highlight connected tissues. Click and drag nodes or zoom in to make results easier to read.")
+              tags$li("Hover over nodes to highlight connected tissues."), 
+              tags$li("Click and drag nodes or zoom in to make results easier to read.")
             ),
             tags$h4("Related Papers"),
             tags$ul(
