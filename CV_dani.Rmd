@@ -30,7 +30,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <br/>
 
 ***
-## __APPOITMENTS__
+## __APPOINTMENTS__
 
 ### __State Fisheries Genomics Lab__
 - 2025 - __Research Associate__,Coastal Oregon Marine Experiment Station, Hatfield Marine Science Center, Oregon State University </br>
