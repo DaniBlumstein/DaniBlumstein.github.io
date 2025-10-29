@@ -39,8 +39,9 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 - October 2024 - May 2025 __Research Associate__,State Fisheries Genomics Lab, Coastal Oregon Marine Experiment Station, Hatfield Marine Science Center </br>
 
 ### __University of Denver__
-- May 2024 - September 2024, Field Team Director</br>
+- May 2024 - September 2024, __Field Team Director__</br>
 
+***
 ## __EDUCATION__
 
 ### __University of New Hampshire__, Durham, NH
