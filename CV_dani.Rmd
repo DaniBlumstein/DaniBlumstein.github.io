@@ -1,7 +1,7 @@
 ---
 title: "Danielle Blumstein"
 author: "dani.blumstein@gmail.com"
-date: "10/18/2025"
+date: "8/2/2026"
 output: html_document
 ---
 
@@ -63,6 +63,8 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ***
 ## __PUBLICATIONS__</br>
+ __Blumstein DM__, Patel A, Schiro G, Suzuki. 2026. Beyond distance-decay: The Mississippi River shapes gut microbiome communities in the Peromyscus maniculatus species complex. BioRxiv. https://doi.org/10.64898/2026.06.03.729934 
+
 __Blumstein DM__ and MacManes, MD. 2024. Impacts of dietary fat on multi tissue gene expression in the desert-adapted cactus mouse. Journal of Experimental Biology. J Exp Biol 227 (24): jeb247978.
 
 __Blumstein DM__, Colella, JP, E Linder, and MacManes, MD. 2024. High total water loss driven by low-fat diet in desert-adapted mice, Journal of Mammalogy; gyae093.
@@ -94,37 +96,44 @@ Waraniak JM, __Blumstein DM__, Scribner KT. (2017). Barcoding PCR primers detect
 
 ***
 ## __RESEARCH PRESENTATIONS__</br>
-Sarah Nicholls, Sarah Couture, __Blumstein, DM__, MacManes MD (2024) Using RNA Sequencing to Examine the Dehydration Response in the Hypothalamus and Pituitary Gland of a Desert-Adapted Mouse (poster). 3rd Joint Congress on Evolutionary Biology. Montreal, QC, Canada.
+__Blumstein DM__, Patel A, Schiro G, Suzuki T (2026) Beyond distance-decay: The Mississippi River shapes gut microbiome communities in the Peromyscus maniculatus species complex. Beneficial Microbes. Madison, Wisconsin  _[oral presentation]_
 
-Sarah Nicholls, Sarah Couture, __Blumstein, DM__, MacManes MD (2024) Using RNA Sequencing to Examine the Dehydration Response in the Hypothalamus and Pituitary Gland of a Desert-Adapted Mouse (poster). Undergraduate Research Conference, University of New Hampshire
+__Blumstein DM__, Patel A, Schiro G, Suzuki T (2026) Beyond distance-decay: The Mississippi River shapes gut microbiome communities in the Peromyscus maniculatus species complex. Fusion 2026 Scientific Retreat. Arizona State University _[poster]_
+Top ten poster selected for a 90 second rapid talk.
+
+__Blumstein DM__, Patel A, Schiro G, Suzuki T (2026) Beyond distance-decay: The Mississippi River shapes gut microbiome communities in the Peromyscus maniculatus species complex. Arizona and Southern Nevada Branch of the American Society for Microbiology. Tuba City, Arizona _[poster]_
+
+Nicholls S., Couture S, __Blumstein DM__, MacManes MD (2024) Using RNA Sequencing to Examine the Dehydration Response in the Hypothalamus and Pituitary Gland of a Desert-Adapted Mouse. 3rd Joint Congress on Evolutionary Biology. Montreal, QC, Canada _[poster]_
+
+Nicholls S, Couture S, __Blumstein DM__, MacManes MD (2024) Using RNA Sequencing to Examine the Dehydration Response in the Hypothalamus and Pituitary Gland of a Desert-Adapted Mouse. Undergraduate Research Conference, University of New Hampshire _[poster]_
 
 __Blumstein DM__ (2024). Survival Strategies in Arid Environments: Exploring Desert Adaptations in Peromyscus eremicus. PhD dissertation. University of New Hampshire. 
 
-__Blumstein DM__, MacManes MD (2023) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. American Society of Mammologists, Anchorage, Alaska.
+__Blumstein DM__, MacManes MD (2023) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. American Society of Mammologists, Anchorage, Alaska _[oral presentation]_
 
 __Blumstein DM__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Evolution, Cleveland, Ohio _[oral presentation]_
 
-__Blumstein DM.__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. American Society of Mammologists, Tucson, Arizona. _[oral presentation]_
+__Blumstein DM__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. American Society of Mammologists, Tucson, Arizona. _[oral presentation]_
 
-Donatelli C., __Blumstein, DM.__, MacManes MD (2022) Changes in gene expression in the cactus mouse (Peromyscus eremicus) due to diet composition. Undergraduate Research Conference, University of New Hampshire. _[poster]_ 
+Donatelli C, __Blumstein DM__, MacManes MD (2022) Changes in gene expression in the cactus mouse (Peromyscus eremicus) due to diet composition. Undergraduate Research Conference, University of New Hampshire. _[poster]_ 
 
-__Blumstein DM.__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Graduate Research Conference, University of New Hampshire. _[poster]_ 
+__Blumstein DM__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Graduate Research Conference, University of New Hampshire. _[poster]_ 
 
-__Blumstein, DM__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona. _[oral presentation]_
+__Blumstein DM__, MacManes MD (2022) When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona. _[oral presentation]_
 
-__Blumstein, DM__, (2021). When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Molecular, Cellular, Biomedical Sciences, University of New Hampshire. _[oral presentation]_
+__Blumstein DM__, (2021). When the tap runs dry: The physiological effects of acute experimental dehydration in the desert adapted mouse. Molecular, Cellular, Biomedical Sciences, University of New Hampshire. _[oral presentation]_
 
-__Blumstein, DM__, Colella JP, MacManes MD (2021). Food for thought: Evaporative water loss driven by low-fat diet in desert-adapted mice. Annual Meeting of the American Society of Mammalogists, Virtual Conference Platform. _[poster]_
+__Blumstein DM__, Colella JP, MacManes MD (2021). Food for thought: Evaporative water loss driven by low-fat diet in desert-adapted mice. Annual Meeting of the American Society of Mammalogists, Virtual Conference Platform. _[poster]_
 
-__Blumstein, DM__ (2021). How to survive an extreme environment: a lesson from the cactus mouse. Three Minute Thesis, University of New Hampshire. _[oral presentation]_
+__Blumstein DM__ (2021). How to survive an extreme environment: a lesson from the cactus mouse. Three Minute Thesis, University of New Hampshire. _[oral presentation]_
 
-__Blumstein, DM__ (2021). Evaporative water loss driven by low fat diet in desert-adapted mice. Molecular, Cellular, Biomedical Sciences, University of New Hampshire. _[oral presentation]_
+__Blumstein DM__ (2021). Evaporative water loss driven by low fat diet in desert-adapted mice. Molecular, Cellular, Biomedical Sciences, University of New Hampshire. _[oral presentation]_
 
-__Blumstein, DM__ (2020). Peromics. Molecular, Cellular, Biomedical Sciences, University of New Hampshire _[oral presentation]_
+__Blumstein DM__ (2020). Peromics. Molecular, Cellular, Biomedical Sciences, University of New Hampshire _[oral presentation]_
 
 __Blumstein DM__, Campbell MA, Hale MC, Sutherland BJG, McKinney GJ, Stott W, Larson WA. (2019). The first haploid linkage map in a coregonid _(Coregonus artedi)_ improves knowledge of chromosomal evolution and rediploidization across Salmonids. International Association for Great Lakes Research 62nd Annual Conference on Great Lakes Research. The College at Brockport, State University of New York _[oral presentation]_
 
-__Blumstein DM__. (2019). The first haploid linkage map in a coregonid _(Coregonus artedi)_ improves knowledge of chromosomal evolution and rediploidization across Salmonids. Master's thesis. University of Wisconsin-Stevens Point. _[oral presentation]_
+__Blumstein DM__ (2019). The first haploid linkage map in a coregonid _(Coregonus artedi)_ improves knowledge of chromosomal evolution and rediploidization across Salmonids. Master's thesis. University of Wisconsin-Stevens Point. _[oral presentation]_
 
 __Blumstein DM__, Stott W, Larson WA (2019) Development of a genetic linkage map for cisco _(Coregonus artedi)_  to facilitate integrated studies of adaptive diversity (poster). 47th Annual Meeting of the Wisconsin Chapter of the American Fisheries Society. Green Bay, Wisconsin. _[poster]_ 
 
@@ -150,12 +159,13 @@ __Blumstein DM__, Mays D, Scribner KT (2017) Spatial genetic structure and recru
 ## __RESEARCH and PROFESIONAL EXPERIENCE__</br>
 
 ### __Professional Service:__</br>
+- _2026_ Invited Judge School of Life Science Undergraduate Research Poster Symposium, Arizona State Univeristy
+
 - _2024, 2023, 2022, 2021_ Invited Judge College of Life Science and Agriculture Undergraduate Research Conference, University of New Hampshire
 
 - _2023-2024_ Elected COLSA Senator, Grad Student Senate, University of New Hampshire.
 
-- _2022_ Session Chair, The Society for Integrative & Comparative Biology Annual Meeting. 
-Phoenix, Arizona
+- _2022_ Session Chair, The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona
 
 - _2022, 2021_ Grad student social coordinator in the Department of Molecular, Cellular, Biomedical Sciences, University of New Hampshire
 
@@ -164,6 +174,8 @@ Phoenix, Arizona
 - _2019_ Judge Jim and Katie Krause College of Natural Resources Student Research Symposium, University of Wisconsin – Stevens Point. 
 
 ### __Workshops:__</br>
+- _2026_ Ecology and Evolutionary Biology 50th Anniversary Symposium. The University of Arizona, Tucson, Arizona.
+
 - _2022_ Curriculum vitae Workshop. American Society of Mammologists, Tucson, Arizona.
 
 - _2022_ Faculty Launch Workshop. The Society for Integrative & Comparative Biology Annual Meeting. Phoenix, Arizona.
@@ -219,10 +231,8 @@ Phoenix, Arizona
 - GT-seq library preparation and data management 
 
 ### __Computer:__</br>
--	Programs: STACKS, Rqtl, ArcMap, LepMap, Sable Systems expedata, Colony Parentage Analysis Program 
 -	High performance computing with slurm scheduling  
 -	Microsoft Office (Word, Excel, Powerpoint) 
--	Image J 
 -	Adobe Photoshop 
 -	Coding languages: Python, R statistical software, BASH, Java, HTML
 - App and Web development: RMarkdown, GitPages, Rshiny
@@ -231,9 +241,9 @@ Phoenix, Arizona
 -	Metabolic phenotyping with Sable Systems Field Metabolic System (FMS)
 -	Mouse colony management
 -	Small mammal trapping and ear tagging
--	Desert mouse identification 
 -	Mouse dissections and tissue extraction for RNA
 -	Implantation of PIT tags 
+- Study skin prep for Peromyscus
 
 ### __Fisheries:__</br>
 - Morphometric measurements

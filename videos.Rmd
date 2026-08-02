@@ -1,12 +1,8 @@
 ---
-title: 
+title: ""
 output: html_document
 ---
 
-
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
   box-sizing: border-box;
@@ -19,30 +15,30 @@ body {
 
 .header {
   text-align: center;
-  padding: 32px;
+  padding: 32px 16px 12px;
 }
 
 .row1 {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
+  --cols: 6;
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  gap: 8px;
   padding: 0 4px;
 }
 
-/* Create two equal column1s that sits next to each other */
 .column1 {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
+  min-width: 0;
 }
 
-.column1 img {
+.column1 img,
+.column1 video,
+.column1 iframe,
+.column1 embed {
+  width: 100%;
+  display: block;
   margin-top: 8px;
-  vertical-align: middle;
 }
 
-/* Style the buttons */
 .btn {
   border: none;
   outline: none;
@@ -60,19 +56,166 @@ body {
   background-color: #666;
   color: white;
 }
-</style>
-</head>
-<body>
 
-<div class="header" id="myHeader">
-<h1>PhD Defense</h1>
-Survival Strategies in Arid Environments: Exploring Desert Adaptations in Peromyscus eremicus </br>
-__University of New Hampshire__<br/>
-April 18, 2024   
+@media screen and (max-width: 800px) {
+  .row1 {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function countColumns(row) {
+    var n = 0;
+    Array.prototype.forEach.call(row.children, function (child) {
+      if (child.classList && child.classList.contains("column1")) {
+        n++;
+      }
+    });
+    return n || 1;
+  }
+
+  function setActive(header, activeBtn) {
+    var buttons = header.querySelectorAll(".btn");
+    buttons.forEach(function (btn) {
+      btn.classList.remove("active");
+    });
+    if (activeBtn) {
+      activeBtn.classList.add("active");
+    }
+  }
+
+  function setColumns(row, n) {
+    row.style.setProperty("--cols", String(n));
+  }
+
+  document.querySelectorAll(".grid-toggle").forEach(function (header) {
+    var row = header.nextElementSibling;
+    if (!row || !row.classList.contains("row1")) return;
+
+    var available = countColumns(row);
+    setColumns(row, Math.min(6, available));
+
+    var buttons = header.querySelectorAll(".btn");
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var n = parseInt(btn.getAttribute("data-cols"), 10);
+        if (!n) return;
+        setColumns(row, Math.min(n, available));
+        setActive(header, btn);
+      });
+    });
+
+    var init = header.querySelector('.btn[data-cols="2"]') || buttons[0];
+    setActive(header, init);
+  });
+});
+</script>
+
+<div class="header grid-toggle">
+  <h1>Galiuros Field Work</h1>
+  <p>Santa Catalina Mountains, Arizona, May 2026</p>
+  <p>Click the buttons to change the grid view.</p>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
+</div>
+
+<div class="row1">
+  <div class="column1">
+<img src="pictures/galiuros/1.jpg" style="width:100%">
+<img src="pictures/galiuros/2.JPG" style="width:100%">
+<img src="pictures/graham/3.jpg" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/galiuros/4.jpg" style="width:100%">
+<img src="pictures/galiuros/5.jpg" style="width:100%">
+<img src="pictures/galiuros/6.jpg" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/galiuros/7.jpg" style="width:100%">
+<img src="pictures/galiuros/8.jpg" style="width:100%">
+<img src="pictures/galiuros/9.jpg" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/galiuros/10.jpg" style="width:100%">
+<img src="pictures/galiuros/11.jpg" style="width:100%">
+<img src="pictures/galiuros/12.jpg" style="width:100%">
+  </div>
+</div>
 <br/>
 
-<html lang="en"> 
-  
+<div class="header grid-toggle">
+  <h1>Mt Graham Field Work</h1>
+  <p>Santa Catalina Mountains, Arizona, June 2026</p>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
+</div>
+
+<div class="row1">
+  <div class="column1">
+<img src="pictures/graham/1.jpg" style="width:100%">
+<img src="pictures/graham/2.jpg" style="width:100%">
+<img src="pictures/graham/3.jpg" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/graham/4.jpg" style="width:100%">
+<img src="pictures/graham/5.jpg" style="width:100%">
+<img src="pictures/graham/6.JPG" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/graham/7.JPG" style="width:100%">
+<img src="pictures/graham/8.JPG" style="width:100%">
+<img src="pictures/graham/9.JPG" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/graham/10.JPG" style="width:100%">
+<img src="pictures/graham/11.JPG" style="width:100%">
+<img src="pictures/graham/12.jpg" style="width:100%">
+  </div>
+</div>
+<br/>
+
+<div class="header grid-toggle">
+  <h1>Mt Lemmon Field Work</h1>
+  <p>Santa Catalina Mountains, Arizona, November 2025</p>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
+</div>
+
+<div class="row1">
+  <div class="column1">
+<img src="pictures/lemmon/8.HEIC" style="width:100%">
+<img src="pictures/lemmon/2.HEIC" style="width:100%">
+<img src="pictures/lemmon/3.HEIC" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/lemmon/IMG_3108.HEIC" style="width:100%">
+<img src="pictures/lemmon/6.HEIC" style="width:100%">
+<img src="pictures/lemmon/IMG_3244.HEIC" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/lemmon/IMG_7205.JPG" style="width:100%">
+<img src="pictures/lemmon/PXL_20251107_165256923.jpg" style="width:100%">
+<img src="pictures/lemmon/PXL_20251107_180749017.jpg" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/lemmon/10.jpg" style="width:100%">
+<img src="pictures/lemmon/12.jpg" style="width:100%">
+<img src="pictures/lemmon/9.jpg" style="width:100%">
+  </div>
+</div>
+<br/>
+
+<div class="header grid-toggle">
+  <h1>PhD Defense</h1>
+  <p>Survival Strategies in Arid Environments: Exploring Desert Adaptations in <em>Peromyscus eremicus</em></p>
+  <p>University of New Hampshire, April 18, 2024</p>
+</div>
+
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" 
@@ -83,32 +226,23 @@ April 18, 2024
 <body> 
     <embed width=100% height="500" 
            src="https://youtube.com/embed/UGPvuMC0s14"> 
-  
 </body> 
-  
-</html>
-
-<!-- Header -->
-<div class="header" id="myHeader">
-  <h1>Bartlett Experimental Forest</h1>
-  <p>National forest in Bartlett, New Hampshire, July, 27-31, 2022</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
+  </div>
 </div>
 
+<div class="header grid-toggle">
+  <h1>Bartlett Experimental Forest</h1>
+  <p>National Forest in Bartlett, New Hampshire, July 27-31, 2022</p>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
+</div>
 
-<!-- Photo Grid -->
-<div class="row1"> 
+<div class="row1">
   <div class="column1">
 <img src="pictures/smammals/1.jpeg" style="width:100%">
 <img src="pictures/smammals/2.jpeg" style="width:100%">
 <img src="pictures/smammals/3.jpeg" style="width:100%">
-  </div>
-  <div class="column1">
-<img src="pictures/smammals/4.jpeg" style="width:100%">
-<img src="pictures/smammals/5.jpeg" style="width:100%">
-<img src="pictures/smammals/6.jpeg" style="width:100%">
   </div>  
   <div class="column1">
 <img src="pictures/smammals/7.jpeg" style="width:100%">
@@ -121,21 +255,19 @@ April 18, 2024
 <img src="pictures/smammals/13.jpeg" style="width:100%">
   </div>
   <div class="column1">
-<img src="pictures/smammals/14.jpeg" style="width:100%">
+<img src="pictures/smammals/5.jpeg" style="width:100%">
 <img src="pictures/smammals/15.jpeg" style="width:100%">
 <img src="pictures/smammals/17.jpeg" style="width:100%">
   </div>
 </div>
-<br/>
 
-<center>
+<<center>
 <video width=100% height="500" controls>
   <source src="pictures/smammals/16.mp4" type="video/mp4">
 </video>
+<br/>
 
-
-<!-- Header -->
-<div class="header" id="myHeader">
+<div class="header grid-toggle">
   <h1>SICB 2022</h1>
   <p>January 7, 2022</p>
 </div>
@@ -145,17 +277,14 @@ April 18, 2024
   <source src="pictures/SICB2022.mp4" type="video/mp4">
 </video>
 
-<!-- Header -->
-<div class="header" id="myHeader">
+<div class="header grid-toggle">
   <h1>Graphical Science Communication</h1>
-  <p>Click on the buttons to change the grid view</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
 </div>
 
-<!-- Photo Grid -->
-<div class="row1"> 
+<div class="row1">
   <div class="column1">
 <img src="pictures/166354269_289567655877249_9021535509574002196_n.png" style="width:100%">
 <img src="pictures/ASM_2021-page-001.jpg" style="width:100%">
@@ -165,33 +294,27 @@ April 18, 2024
 <video width=100% controls><source src="3MT_2021_-_Dani_Blumstein_-_March_30_(Source).mp4" type="video/mp4"></video>
 <img src="pictures/top_down_thesis.jpg" style="width:100%">
 <img src="pictures/GRC.jpg" style="width:100%">
-
-
-
   </div>
 </div>
 <br/>
 
-<!-- Header -->
-<div class="header" id="myHeader">
+<div class="header grid-toggle">
   <h1>Spring MCBS Seminar</h1>
   <p>April 14, 2020</p>
 </div>
 
 <iframe width=100% height="500" controls src="https://www.youtube.com/embed/opsahhC6wxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<!-- Header -->
-<div class="header" id="myHeader">
-  <h1>Southern California</h1>
-  <p>Deep Canyon, Santa Rosa Mt., and Sissors Crossing  Sept 13 - 20, 2019</p>
-  <p>Click on the buttons to change the grid view</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
+  </div>
 </div>
 
-<!-- Photo Grid -->
+<div class="header grid-toggle">
+  <h1>Southern California</h1>
+  <p>Deep Canyon, Santa Rosa Mt., and Sissors Crossing, Sept 13-20, 2019</p>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
+</div>
+
 <div class="row1"> 
   <div class="column1">
 <img src="pictures/desert1/00100lPORTRAIT_00100_BURST20190919095334218_COVER.jpg" style="width:100%">
@@ -220,17 +343,18 @@ April 18, 2024
 <video width=100% height="500" controls>
   <source src="pictures/desert1/VID_20190917_080018.mp4" type="video/mp4">
 </video>
+  </div>
+</div>
+<br/>
 
-<!-- Header -->
-<div class="header" id="myHeader">
+<div class="header grid-toggle">
   <h1>USGS Kiyi Research Vessel</h1>
-  <p>Lake Superior July 8 - 11, 2019</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
+  <p>Lake Superior, July 8-11, 2019</p>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
 </div>
 
-<!-- Photo Grid -->
 <div class="row1"> 
   <div class="column1">
 <img src="pictures/kiyi/IMG_-f4qnsd.jpg" style="width:100%">
@@ -259,28 +383,26 @@ April 18, 2024
 <video width=100% height="500" controls>
   <source src="pictures/kiyi/VID_20190709_101407.mp4" type="video/mp4">
 </video>
+  </div>
+</div>
+<br/>
 
-
-<!-- Header -->
-<div class="header" id="myHeader">
+<div class="header grid-toggle">
   <h1>Wisconsin Sturgeon Drift</h1>
-  <p>Shawano, WI June 5, 2019</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
+  <p>Shawano, WI, June 5, 2019</p>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
 </div>
 
-<!-- Photo Grid -->
 <div class="row1"> 
   <div class="column1">
 <img src="pictures/sturgeon/IMG_1.jpg" style="width:100%">
 <img src="pictures/sturgeon/IMG_2.jpg" style="width:100%">
+<img src="pictures/sturgeon/IMG_3.jpg" style="width:100%">
   </div>
   <div class="column1">
-<img src="pictures/sturgeon/IMG_3.jpg" style="width:100%">
 <img src="pictures/sturgeon/IMG_4.jpg" style="width:100%">
-  </div>  
-  <div class="column1">
 <img src="pictures/sturgeon/IMG_5.jpg" style="width:100%">
 <img src="pictures/sturgeon/IMG_6.jpg" style="width:100%">
   </div>
@@ -290,69 +412,12 @@ April 18, 2024
   </div>
 </div>
 
-<script>
-// Get the elements with class="column1"
-var elements = document.getElementsByClassName("column1");
-
-// Declare a loop variable
-var i;
-
-// Full-width images
-function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
-  }
-}
-
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
-  }
-}
-
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
-  }
-}
-
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
-
-</body>
-</html>
-<br/>
-
-<center>
-<video width=100% height="500" controls>
-  <source src="pictures/62496104_874684099539510_5830227868588304594_n.mp4" type="video/mp4">
-</video>
-<br/>
-
-
+<div class="header grid-toggle">
+  <h1>Masters Defense</h1>
+  <p>The first haploid linkage map in a coregonid (<em>Coregonus artedi</em>) improves knowledge of chromosomal evolution and rediploidization across salmonids.</p>
+  <p>University of Wisconsin - Stevens Point, Stevens Point, WI, May 10, 2019</p>
 </div>
-<div class="header" id="myHeader">
-<h1>Masters Defense</h1>
-The first haploid linkage map in a coregonid (Coregonus artedi) improves knowledge of chromosomal evolution and rediploidization across Salmonids </br>
-__University of Wisconsin - Stevens Point, Stevens Point, WI__<br/>
-May 10, 2019   
-<br/>
-<html lang="en"> 
-  
+
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" 
@@ -363,7 +428,3 @@ May 10, 2019
 <body> 
     <embed width=100% height="500" 
            src="https://youtube.com/embed/SUmcFbpzfi8"> 
-  
-</body> 
-  
-</html>

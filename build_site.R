@@ -5,4 +5,3 @@
 setwd("~/Documents/DaniBlumstein.github.io")
 #render your sweet site. 
 rmarkdown::render_site()
-
