@@ -1,0 +1,7 @@
+
+cd Documents/UNH/classes/TAing/GEN711/
+git clone https://github.com/macmanes/GEN711_S21.git
+cd Documents/UNH/classes/TAing/GEN711/GEN711_S21
+git add -A
+git commit -m "week two added"
+git push origin HEAD:main
