@@ -114,6 +114,39 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <div class="header grid-toggle">
+  <h1>Chiricahuas Field Work</h1>
+  <p>Santa Catalina Mountains, Arizona, September 2026</p>
+  <p>Click the buttons to change the grid view.</p>
+  <button class="btn" data-cols="1">1</button>
+  <button class="btn active" data-cols="2">2</button>
+  <button class="btn" data-cols="4">4</button>
+</div>
+
+<div class="row1">
+  <div class="column1">
+<img src="pictures/chiricahuas/1.jpg" style="width:100%">
+<img src="pictures/chiricahuas/2.JPG" style="width:100%">
+<img src="pictures/chiricahuas/3.jpg" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/chiricahuas/4.jpg" style="width:100%">
+<img src="pictures/chiricahuas/5.jpg" style="width:100%">
+<img src="pictures/chiricahuas/6.jpg" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/chiricahuas/7.jpg" style="width:100%">
+<img src="pictures/chiricahuas/8.MP.jpg" style="width:100%">
+<img src="pictures/chiricahuas/9.jpg" style="width:100%">
+  </div>
+  <div class="column1">
+<img src="pictures/chiricahuas/10.jpg" style="width:100%">
+<img src="pictures/chiricahuas/11.jpg" style="width:100%">
+<img src="pictures/chiricahuas/12.jpg" style="width:100%">
+  </div>
+</div>
+<br/>
+
+<div class="header grid-toggle">
   <h1>Galiuros Field Work</h1>
   <p>Santa Catalina Mountains, Arizona, May 2026</p>
   <p>Click the buttons to change the grid view.</p>
